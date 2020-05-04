@@ -1,0 +1,6 @@
+title: Eren Bilen
+description: [Ph.D. Candidate in Economics University of South Carolina.]
+theme: jekyll-theme-cayman
+plugins:
+      - jekyll-seo-tag
+
