@@ -1,5 +1,4 @@
-# Eren Bilen, PhD Candidate in Economics
+# Eren Bilen
 
-Here are the files to generate my personal website. <br/> <br/>
+Hi! I'm a PhD Candidate in Economics at the University of South Carolina, expected to graduate in May 2021. <br/> <br/>
 My research interests are in Applied Microeconomics, Tournaments, Health Economics <br/><br/>
- 
