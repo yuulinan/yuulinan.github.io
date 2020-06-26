@@ -31,13 +31,15 @@ Description: A two-column,  fixed-width and lightweight template ideal for 1024x
 
 <!-- end header -->
 
+
+
 <!-- start page -->
 <div id="page">
 	<!-- start content -->
 	<div id="content">
 
 		<div class="post">
-			<h1 class="category">Past Courses</h1>
+			<h1 class="category">Interactive Graphs</h1>
 			</div>
 
 
@@ -47,18 +49,51 @@ Description: A two-column,  fixed-width and lightweight template ideal for 1024x
 
 							<!-- Copy from here -->
 <div class="item">
-<br>
 
 
-<object data="vaccine.html" width="885px" height="1905px">
-	    Your browser doesn’t support the object tag.
-</object>
+Here are a few interactive graphs I created using Python that I find very interesting. Feel free to interact with the widgets to zoom-in or out and hover to see more information on each data point.
+
+<br><br><br><br>
+
+<div class='wrap'>
+<iframe src="vaccine.html" height="290px" width="900px" frameborder="0"></iframe>
+</div>
+
+<div class='wrap2'>
+<iframe src="Eren_hurricane_explorer.html" height="120px" width="900px" frameborder="0"></iframe>
+</div>
+
+
+
+
+
 
 
 </div>
 <!-- To here -->
 
+<style>
+.wrap {
+    width: 760px;
+    height: 270px;
+    overflow: hidden;
+}
 
+.wrap2 {
+    width: 1140px;
+    height: 970px;
+    overflow: hidden;
+}
+
+iframe {
+    width: 99.92% !important;
+    height: 99.92% !important;
+    -webkit-transform: scale(.8);
+    transform: scale(.8);
+    -webkit-transform-origin: 0 0;
+    transform-origin: 0 0;
+}
+</style>
 
 <!-- To here -->
 
@@ -99,7 +134,7 @@ Description: A two-column,  fixed-width and lightweight template ideal for 1024x
 				<h2>Other</h2>
 				<ul>
 					<li><a href="pdfs\Bilen_CV.pdf">CV</a></li>
-          <li><a href="https://github.com/ernbilen">GitHub Profile</a></li>
+          <li><a href="https://github.com/ernbilen" target="_blank">GitHub Profile</a></li>
 					<li><a href="links.html">Useful Links</a></li>
           <li><a href="interactive.html">Interactive Graphs</a></li>
 					</ul>
