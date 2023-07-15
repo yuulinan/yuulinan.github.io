@@ -1,0 +1,176 @@
+---
+title: "Nationalism in Online Games: Impacts of International Conflicts on Chess Player Behavior"
+subtitle: "⚔<br/>with Nino Doghonadze (Uber) and Robizon Khubulashvili (U of San Francisco)"
+author: "Eren Bilen, Assistant Professor of Data Analytics"
+institute: "Dickinson College"
+date: "Oct 21, 2022"
+output:
+  xaringan::moon_reader:
+    lib_dir: libs
+    nature:
+      highlightStyle: github
+      highlightLines: true
+      countIncrementalSlides: false
+    includes:
+      after_body: insert-logo.html
+---
+
+```{r setup, include=FALSE}
+options(htmltools.dir.version = FALSE)
+```
+
+
+
+# Overview
+My background: Economics and data science
+
+- Research: How people make decision in competitive environments
+  - Chess data: Vast amount of data from people who compete fiercely!
+  
+  
+- Project 1: Superstar Effect (under review)
+- Project 2: Gender and Risk taking
+- Project 3: Nationalism in Online Games
+
+
+---
+
+
+# Overview
+My background: Economics and data science
+
+- Research: How people make decision in competitive environments
+  - Chess data: Vast amount of data from people who compete fiercely!
+  
+  
+- Project 1: Superstar Effect (under review)
+- Project 2: Gender and Risk taking
+- <mark style="background-color: #FFFF00">Project 3: Nationalism in Online Games</mark>  
+
+---
+
+Nagorno-Karabakh conflict between Azerbaijan and Armenia, Oct 2020
+
+```{r out.width='100%', fig.height=6, eval=require('leaflet')}
+library(leaflet)
+leaflet() %>% addTiles() %>% setView(43.1, 41.5, zoom = 5)
+```
+
+
+---
+# The research setting
+- No international competition between two countries during the war
+- [chess.com](https://chess.com) operates 24/7! (the biggest online chess platform)
+  - About 30,000 games happen every hour worldwide
+- Scraped all games played between Armenian and Azerbaijani chess.com users in 2020. 
+  - ~8,000 games with 2,200 during conflict
+
+$\\[.15cm]$
+
+**Research question:**
+- Do people (chess players) reflect international conflict on their behavior?
+  - Do they play more aggressively?
+  - Does the impact depend on who initiated the war/winning side?
+
+---
+
+# Chess data
+
+$\\[1cm]$
+```{r,echo=F, out.width="40%",fig.align="center"}
+knitr::include_graphics("image7.png")
+```
+
+---
+# Chess data
+<img style="max-width: 80%; height: auto; " src="image1.png" />
+
+---
+
+# Chess data
+
+$\\[1cm]$
+```{r,echo=F, out.width="40%",fig.align="center"}
+knitr::include_graphics("image2.png")
+```
+
+---
+
+# Chess data: Board Complexity
+
+- Estimate probability of making a mistake on a given position
+  - Most positions are unique, so can't look at historical data
+  - **Solution:** Machine learning (neural network) that learns the types positions where mistakes happen the most
+
+```{r,echo=F, out.width="70%",fig.align="center"}
+knitr::include_graphics("image3.png")
+```
+$\\[.1cm]$
+- Trained on a sample with 25,000 games played in tournaments, ~2 million moves
+- Used to estimate complexity of games in the Armenia-Azerbaijan sample
+
+---
+
+# Results
+
+$\\[1cm]$
+```{r,echo=F, out.width="80%",fig.align="center",fig.cap="Histograms for ACPL (actual mistakes) vs. Complexity (estimated mistakes) mean ACPL = 72, estimated mean ACPL = 27"}
+knitr::include_graphics("image5.png")
+```
+
+---
+
+# Results
+
+$\\[1cm]$
+```{r,echo=F, out.width="60%",fig.align="center",fig.cap="Scatterplot of ACPL (actual mistakes) against Complexity (estimated mistakes) slope = 2.32 with SE=.03"}
+knitr::include_graphics("image6.png")
+```
+
+---
+
+# Results
+
+```{r,echo=F, out.width="60%",fig.align="center",fig.cap="Reduced form results, Complexity"}
+knitr::include_graphics("image11.png")
+```
+---
+
+# Results
+
+```{r,echo=F, out.width="60%",fig.align="center",fig.cap="Reduced form results, ACPL"}
+knitr::include_graphics("image12.png")
+```
+---
+
+# Results
+
+$\\[1cm]$
+```{r,echo=F, out.width="60%",fig.align="center",fig.cap="Differences in Differences regression results (all sample)"}
+knitr::include_graphics("image8.png")
+```
+---
+
+# Results
+
+$\\[1cm]$
+```{r,echo=F, out.width="60%",fig.align="center",fig.cap="Differences in Differences regression results (Azeri players)"}
+knitr::include_graphics("image9.png")
+```
+---
+
+# Results
+
+$\\[1cm]$
+```{r,echo=F, out.width="60%",fig.align="center",fig.cap="Differences in Differences regression results (Armenian players)"}
+knitr::include_graphics("image10.png")
+```
+---
+
+class: center, middle
+
+# Thanks!
+
+Slides created via the R package [**xaringan**](https://github.com/yihui/xaringan).
+
+Backend support from [remark.js](https://remarkjs.com), [**knitr**](https://yihui.org/knitr/), and [R Markdown](https://rmarkdown.rstudio.com).
