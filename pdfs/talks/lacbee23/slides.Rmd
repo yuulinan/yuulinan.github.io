@@ -1,9 +1,9 @@
 ---
 title: "Nationalism in Online Games: Impacts of International Conflicts on Chess Player Behavior"
-subtitle: "⚔<br/>with Nino Doghonadze (Uber) and Robizon Khubulashvili (U of San Francisco)"
+subtitle: "⚔<br/>with Nino Doghonadze (Uber), Robizon Khubulashvili (U of San Francisco), David Smerdon (U of Queensland)"
 author: "Eren Bilen, Assistant Professor of Data Analytics"
 institute: "Dickinson College"
-date: "Oct 21, 2022"
+date: "July 19, 2023"
 output:
   xaringan::moon_reader:
     lib_dir: libs
@@ -21,56 +21,70 @@ options(htmltools.dir.version = FALSE)
 
 
 
-# Overview
-My background: Economics and data science
+**Research question:**
+- Is nationalism "a thing" in online platforms? 
 
-- Research: How people make decision in competitive environments
-  - Chess data: Vast amount of data from people who compete fiercely!
+--
+  - Are the participants responsive to international conflicts? <br> Behavioral responses, aggressiveness..
   
+--
+  - Potentially problematic for the platform.
   
-- Project 1: Superstar Effect (under review)
-- Project 2: Gender and Risk taking
-- Project 3: Nationalism in Online Games
+--
 
+<br>
+
+- Broader: Do *residents* of countries get more hostile towards each other during a war?
+
+--
+
+<blockquote>Or, is war "just politics"?</blockquote>
 
 ---
 
-
-# Overview
-My background: Economics and data science
-
-- Research: How people make decision in competitive environments
-  - Chess data: Vast amount of data from people who compete fiercely!
-  
-  
-- Project 1: Superstar Effect (under review)
-- Project 2: Gender and Risk taking
-- <mark style="background-color: #FFFF00">Project 3: Nationalism in Online Games</mark>  
-
----
+# Motivation
 
 Nagorno-Karabakh conflict between Azerbaijan and Armenia, Oct 2020
 
-```{r out.width='100%', fig.height=6, eval=require('leaflet')}
+~5,000-10,000 casualties (mostly military)
+
+```{r out.width='100%', fig.height=4, eval=require('leaflet')}
 library(leaflet)
 leaflet() %>% addTiles() %>% setView(43.1, 41.5, zoom = 5)
 ```
 
+---
+
+# Motivation
+
+Conflict between Ukraine and Russia, Feb 2022-cont.
+
+\>100,000 casualties (military and civilian)
+
+```{r out.width='100%', fig.height=4, eval=require('leaflet')}
+library(leaflet)
+leaflet() %>% addTiles() %>% setView(33.1, 51.5, zoom = 4)
+```
 
 ---
-# The research setting
-- No international competition between two countries during the war
-- [chess.com](https://chess.com) operates 24/7! (the biggest online chess platform)
-  - About 30,000 games happen every hour worldwide
-- Scraped all games played between Armenian and Azerbaijani chess.com users in 2020. 
-  - ~8,000 games with 2,200 during conflict
+# Research setting
+- No international contest between two countries during a war
+  - E.g., Russian soccer team was banned from competing in the 2022 World Cup in Qatar.
+- But, [chess.com](https://chess.com) operates 24/7! (the biggest online chess platform)
+  - ~30,000 games happen each hour worldwide
+--
+
+- We scraped games played by Armenian, Azerbaijani, Ukrainian, and Russian players before and after the start of conflict
+  - Arm-Az: ~8,000 games with 2,200 during conflict
+  - Ukr-Ru: ~48,000 games with 18,000 during conflict
 
 $\\[.15cm]$
 
+--
 **Research question:**
 - Do people (chess players) reflect international conflict on their behavior?
-  - Do they play more aggressively?
-  - Does the impact depend on who initiated the war/winning side?
+  - Do they play more "aggressively"?
+  - Does the impact depend on who initiated the war/"winning" side?
 
 ---
 
@@ -100,18 +114,18 @@ knitr::include_graphics("image2.png")
 
 - Estimate probability of making a mistake on a given position
   - Most positions are unique, so can't look at historical data
-  - **Solution:** Machine learning (neural network) that learns the types positions where mistakes happen the most
+  - **Solution:** Machine learning, i.e., neural network that learns the types positions and where mistakes happen the most
 
 ```{r,echo=F, out.width="70%",fig.align="center"}
 knitr::include_graphics("image3.png")
 ```
 $\\[.1cm]$
-- Trained on a sample with 25,000 games played in tournaments, ~2 million moves
-- Used to estimate complexity of games in the Armenia-Azerbaijan sample
+- Trained on a separate sample with 25,000 games played in tournaments, ~2 million moves
+- Use the model to estimate the complexity of games in the conflict sample
 
 ---
 
-# Results
+# Chess data: Board Complexity
 
 $\\[1cm]$
 ```{r,echo=F, out.width="80%",fig.align="center",fig.cap="Histograms for ACPL (actual mistakes) vs. Complexity (estimated mistakes) mean ACPL = 72, estimated mean ACPL = 27"}
@@ -120,12 +134,22 @@ knitr::include_graphics("image5.png")
 
 ---
 
-# Results
+# Chess data: Board Complexity
 
 $\\[1cm]$
 ```{r,echo=F, out.width="60%",fig.align="center",fig.cap="Scatterplot of ACPL (actual mistakes) against Complexity (estimated mistakes) slope = 2.32 with SE=.03"}
 knitr::include_graphics("image6.png")
 ```
+
+---
+
+# Empirical Strategy
+
+- Simple DiD:
+
+<br>
+
+$Y_{ijg}=\gamma H_{ijg}+\pmb{X_{ijg}}'\pmb{\beta}+T_g+N_j+\alpha_i+u_{ijg}$
 
 ---
 

@@ -4,6 +4,7 @@
     <title>Nationalism in Online Games: Impacts of International Conflicts on Chess Player Behavior</title>
     <meta charset="utf-8" />
     <meta name="author" content="Eren Bilen, Assistant Professor of Data Analytics" />
+    <meta name="date" content="2023-07-19" />
     <script src="libs/header-attrs/header-attrs.js"></script>
     <link href="libs/remark-css/default.css" rel="stylesheet" />
     <link href="libs/remark-css/default-fonts.css" rel="stylesheet" />
@@ -25,7 +26,7 @@ class: center, middle, inverse, title-slide
 # Nationalism in Online Games: Impacts of International Conflicts on Chess Player Behavior
 ]
 .subtitle[
-## ⚔<br/>with Nino Doghonadze (Uber) and Robizon Khubulashvili (U of San Francisco)
+## ⚔<br/>with Nino Doghonadze (Uber), Robizon Khubulashvili (U of San Francisco), David Smerdon (U of Queensland)
 ]
 .author[
 ### Eren Bilen, Assistant Professor of Data Analytics
@@ -34,7 +35,7 @@ class: center, middle, inverse, title-slide
 ### Dickinson College
 ]
 .date[
-### Oct 21, 2022
+### July 19, 2023
 ]
 
 ---
@@ -44,35 +45,32 @@ class: center, middle, inverse, title-slide
 
 
 
-# Overview
-My background: Economics and data science
+**Research question:**
+- Is nationalism "a thing" in online platforms? 
 
-- Research: How people make decision in competitive environments
-  - Chess data: Vast amount of data from people who compete fiercely!
+--
+  - Are the participants responsive to international conflicts? &lt;br&gt; Behavioral responses, aggressiveness..
   
+--
+  - Potentially problematic for the platform.
   
-- Project 1: Superstar Effect (under review)
-- Project 2: Gender and Risk taking
-- Project 3: Nationalism in Online Games
+--
 
+&lt;br&gt;
+
+- Broader: Do *residents* of countries get more hostile towards each other during a war?
+
+--
+
+&lt;blockquote&gt;Or, is war "just politics"?&lt;/blockquote&gt;
 
 ---
 
-
-# Overview
-My background: Economics and data science
-
-- Research: How people make decision in competitive environments
-  - Chess data: Vast amount of data from people who compete fiercely!
-  
-  
-- Project 1: Superstar Effect (under review)
-- Project 2: Gender and Risk taking
-- &lt;mark style="background-color: #FFFF00"&gt;Project 3: Nationalism in Online Games&lt;/mark&gt;  
-
----
+# Motivation
 
 Nagorno-Karabakh conflict between Azerbaijan and Armenia, Oct 2020
+
+~5,000-10,000 casualties (mostly military)
 
 
 ```r
@@ -80,24 +78,45 @@ library(leaflet)
 leaflet() %&gt;% addTiles() %&gt;% setView(43.1, 41.5, zoom = 5)
 ```
 
-<div id="htmlwidget-c3317f1676e58a9f0bc3" style="width:100%;height:432px;" class="leaflet html-widget"></div>
-<script type="application/json" data-for="htmlwidget-c3317f1676e58a9f0bc3">{"x":{"options":{"crs":{"crsClass":"L.CRS.EPSG3857","code":null,"proj4def":null,"projectedBounds":null,"options":{}}},"calls":[{"method":"addTiles","args":["https://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png",null,null,{"minZoom":0,"maxZoom":18,"tileSize":256,"subdomains":"abc","errorTileUrl":"","tms":false,"noWrap":false,"zoomOffset":0,"zoomReverse":false,"opacity":1,"zIndex":1,"detectRetina":false,"attribution":"&copy; <a href=\"https://openstreetmap.org\">OpenStreetMap<\/a> contributors, <a href=\"https://creativecommons.org/licenses/by-sa/2.0/\">CC-BY-SA<\/a>"}]}],"setView":[[41.5,43.1],5,[]]},"evals":[],"jsHooks":[]}</script>
-
+<div class="leaflet html-widget html-fill-item-overflow-hidden html-fill-item" id="htmlwidget-22d5296fe49233351af2" style="width:100%;height:288px;"></div>
+<script type="application/json" data-for="htmlwidget-22d5296fe49233351af2">{"x":{"options":{"crs":{"crsClass":"L.CRS.EPSG3857","code":null,"proj4def":null,"projectedBounds":null,"options":{}}},"calls":[{"method":"addTiles","args":["https://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png",null,null,{"minZoom":0,"maxZoom":18,"tileSize":256,"subdomains":"abc","errorTileUrl":"","tms":false,"noWrap":false,"zoomOffset":0,"zoomReverse":false,"opacity":1,"zIndex":1,"detectRetina":false,"attribution":"&copy; <a href=\"https://openstreetmap.org\">OpenStreetMap<\/a> contributors, <a href=\"https://creativecommons.org/licenses/by-sa/2.0/\">CC-BY-SA<\/a>"}]}],"setView":[[41.5,43.1],5,[]]},"evals":[],"jsHooks":[]}</script>
 
 ---
-# The research setting
-- No international competition between two countries during the war
-- [chess.com](https://chess.com) operates 24/7! (the biggest online chess platform)
-  - About 30,000 games happen every hour worldwide
-- Scraped all games played between Armenian and Azerbaijani chess.com users in 2020. 
-  - ~8,000 games with 2,200 during conflict
+
+# Motivation
+
+Conflict between Ukraine and Russia, Feb 2022-cont.
+
+\&gt;100,000 casualties (military and civilian)
+
+
+```r
+library(leaflet)
+leaflet() %&gt;% addTiles() %&gt;% setView(33.1, 51.5, zoom = 4)
+```
+
+<div class="leaflet html-widget html-fill-item-overflow-hidden html-fill-item" id="htmlwidget-87bd1755f59fee06d489" style="width:100%;height:288px;"></div>
+<script type="application/json" data-for="htmlwidget-87bd1755f59fee06d489">{"x":{"options":{"crs":{"crsClass":"L.CRS.EPSG3857","code":null,"proj4def":null,"projectedBounds":null,"options":{}}},"calls":[{"method":"addTiles","args":["https://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png",null,null,{"minZoom":0,"maxZoom":18,"tileSize":256,"subdomains":"abc","errorTileUrl":"","tms":false,"noWrap":false,"zoomOffset":0,"zoomReverse":false,"opacity":1,"zIndex":1,"detectRetina":false,"attribution":"&copy; <a href=\"https://openstreetmap.org\">OpenStreetMap<\/a> contributors, <a href=\"https://creativecommons.org/licenses/by-sa/2.0/\">CC-BY-SA<\/a>"}]}],"setView":[[51.5,33.1],4,[]]},"evals":[],"jsHooks":[]}</script>
+
+---
+# Research setting
+- No international contest between two countries during a war
+  - E.g., Russian soccer team was banned from competing in the 2022 World Cup in Qatar.
+- But, [chess.com](https://chess.com) operates 24/7! (the biggest online chess platform)
+  - ~30,000 games happen each hour worldwide
+--
+
+- We scraped games played by Armenian, Azerbaijani, Ukrainian, and Russian players before and after the start of conflict
+  - Arm-Az: ~8,000 games with 2,200 during conflict
+  - Ukr-Ru: ~48,000 games with 18,000 during conflict
 
 `\(\\[.15cm]\)`
 
+--
 **Research question:**
 - Do people (chess players) reflect international conflict on their behavior?
-  - Do they play more aggressively?
-  - Does the impact depend on who initiated the war/winning side?
+  - Do they play more "aggressively"?
+  - Does the impact depend on who initiated the war/"winning" side?
 
 ---
 
@@ -123,16 +142,16 @@ leaflet() %&gt;% addTiles() %&gt;% setView(43.1, 41.5, zoom = 5)
 
 - Estimate probability of making a mistake on a given position
   - Most positions are unique, so can't look at historical data
-  - **Solution:** Machine learning (neural network) that learns the types positions where mistakes happen the most
+  - **Solution:** Machine learning, i.e., neural network that learns the types positions and where mistakes happen the most
 
 &lt;img src="image3.png" width="70%" style="display: block; margin: auto;" /&gt;
 `\(\\[.1cm]\)`
-- Trained on a sample with 25,000 games played in tournaments, ~2 million moves
-- Used to estimate complexity of games in the Armenia-Azerbaijan sample
+- Trained on a separate sample with 25,000 games played in tournaments, ~2 million moves
+- Use the model to estimate the complexity of games in the conflict sample
 
 ---
 
-# Results
+# Chess data: Board Complexity
 
 `\(\\[1cm]\)`
 &lt;div class="figure" style="text-align: center"&gt;
@@ -142,13 +161,23 @@ leaflet() %&gt;% addTiles() %&gt;% setView(43.1, 41.5, zoom = 5)
 
 ---
 
-# Results
+# Chess data: Board Complexity
 
 `\(\\[1cm]\)`
 &lt;div class="figure" style="text-align: center"&gt;
 &lt;img src="image6.png" alt="Scatterplot of ACPL (actual mistakes) against Complexity (estimated mistakes) slope = 2.32 with SE=.03" width="60%" /&gt;
 &lt;p class="caption"&gt;Scatterplot of ACPL (actual mistakes) against Complexity (estimated mistakes) slope = 2.32 with SE=.03&lt;/p&gt;
 &lt;/div&gt;
+
+---
+
+# Empirical Strategy
+
+- Simple DiD:
+
+&lt;br&gt;
+
+`\(Y_{ijg}=\gamma H_{ijg}+\pmb{X_{ijg}}'\pmb{\beta}+T_g+N_j+\alpha_i+u_{ijg}\)`
 
 ---
 
