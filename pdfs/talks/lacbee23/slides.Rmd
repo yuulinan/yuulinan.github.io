@@ -20,6 +20,12 @@ options(htmltools.dir.version = FALSE)
 ```
 
 
+$\\[1cm]$
+```{r,echo=F, out.width="50%",fig.align="center"}
+knitr::include_graphics("chat.jpeg")
+```
+
+---
 
 **Research question:**
 - Is nationalism "a thing" in online platforms? 
@@ -42,7 +48,7 @@ options(htmltools.dir.version = FALSE)
 
 ---
 
-# Motivation
+# Conflicts
 
 Nagorno-Karabakh conflict between Azerbaijan and Armenia, Oct-Nov 2020
 
@@ -55,7 +61,7 @@ leaflet() %>% addTiles() %>% setView(43.1, 41.5, zoom = 5)
 
 ---
 
-# Motivation
+# Conflicts
 
 Conflict between Ukraine and Russia, Feb 2022-cont.
 
@@ -84,7 +90,7 @@ $\\[.15cm]$
 **Research question:**
 - Do people (chess players) reflect international conflict on their behavior?
   - Do they play more "aggressively"?
-  - Does the impact depend on who initiated the war/"winning" side?
+  - Does the impact depend on who initiated the war/army size?
 
 ---
 
@@ -94,7 +100,7 @@ $\\[.15cm]$
 
 - Conflict & soccer data
   - Depetris-Chauvin et. al. (2020): Africa Cup of Nations & civil conflict
-  - Caruso et. al. (2017): Referees
+  - Caruso et. al. (2017): Referee decisions
   - Miguel et. al. (2010): Violent behavior on the pitch
 
 ---
@@ -170,15 +176,46 @@ $Y_{ijg}$ include performance: average mistake, blunders; game outcomes e.g., wi
 
 # Results
 
-```{r,echo=F, out.width="60%",fig.align="center",fig.cap="Reduced form results, Complexity"}
-knitr::include_graphics("image11.png")
+```{r,echo=F, out.width="99%",fig.align="center",fig.cap="Reduced form results, Complexity, AZ-ARM conflict"}
+knitr::include_graphics("image1111.png")
 ```
 ---
 
 # Results
 
-```{r,echo=F, out.width="60%",fig.align="center",fig.cap="Reduced form results, ACPL"}
-knitr::include_graphics("image12.png")
+```{r,echo=F, out.width="99%",fig.align="center",fig.cap="Reduced form results, ACPL, AZ-ARM conflict"}
+knitr::include_graphics("image1212.png")
+```
+---
+
+# Results
+
+```{r,echo=F, out.width="99%",fig.align="center",fig.cap="Reduced form results, Complexity, UA-RU conflict"}
+knitr::include_graphics("image13.png")
+```
+---
+
+# Results
+
+```{r,echo=F, out.width="99%",fig.align="center",fig.cap="Reduced form results, ACPL, UA-RU conflict"}
+knitr::include_graphics("image14.png")
+```
+
+---
+
+# Results
+
+$\\[1cm]$
+```{r,echo=F, out.width="90%",fig.align="center"}
+knitr::include_graphics("counts-azarm.png")
+```
+---
+
+# Results
+
+$\\[1cm]$
+```{r,echo=F, out.width="90%",fig.align="center"}
+knitr::include_graphics("counts-uaru.png")
 ```
 ---
 
@@ -186,7 +223,7 @@ knitr::include_graphics("image12.png")
 
 $\\[1cm]$
 ```{r,echo=F, out.width="60%",fig.align="center",fig.cap="Differences in Differences regression results, AZ-ARM conflict (all sample)"}
-knitr::include_graphics("image8.png")
+knitr::include_graphics("graph1a.png")
 ```
 ---
 
@@ -194,7 +231,7 @@ knitr::include_graphics("image8.png")
 
 $\\[1cm]$
 ```{r,echo=F, out.width="60%",fig.align="center",fig.cap="Differences in Differences regression results (Azeri players)"}
-knitr::include_graphics("image9.png")
+knitr::include_graphics("graph2a.png")
 ```
 ---
 
@@ -202,8 +239,75 @@ knitr::include_graphics("image9.png")
 
 $\\[1cm]$
 ```{r,echo=F, out.width="60%",fig.align="center",fig.cap="Differences in Differences regression results (Armenian players)"}
-knitr::include_graphics("image10.png")
+knitr::include_graphics("graph3a.png")
 ```
+---
+
+# Results
+
+$\\[1cm]$
+```{r,echo=F, out.width="53%",fig.align="center",fig.cap="Differences in Differences regression results: game outcomes"}
+knitr::include_graphics("graph4a.png")
+```
+---
+
+# Results
+
+$\\[1cm]$
+```{r,echo=F, out.width="80%",fig.align="center",fig.cap="Differences in Differences regression results: secondary outcomes"}
+knitr::include_graphics("graph5a.png")
+```
+---
+
+# Results
+
+$\\[1cm]$
+```{r,echo=F, out.width="60%",fig.align="center",fig.cap="Differences in Differences regression results, UA-RU conflict (all sample)"}
+knitr::include_graphics("graph1u.png")
+```
+---
+
+# Results
+
+$\\[1cm]$
+```{r,echo=F, out.width="60%",fig.align="center",fig.cap="Differences in Differences regression results (Ukrainian players)"}
+knitr::include_graphics("graph2u.png")
+```
+---
+
+# Results
+
+$\\[1cm]$
+```{r,echo=F, out.width="60%",fig.align="center",fig.cap="Differences in Differences regression results (Russian players)"}
+knitr::include_graphics("graph3u.png")
+```
+---
+
+# Results
+
+$\\[1cm]$
+```{r,echo=F, out.width="55%",fig.align="center",fig.cap="Differences in Differences regression results: game outcomes"}
+knitr::include_graphics("graph4u.png")
+```
+---
+
+# Results
+
+$\\[1cm]$
+```{r,echo=F, out.width="95%",fig.align="center",fig.cap="Differences in Differences regression results: secondary outcomes"}
+knitr::include_graphics("graph5u.png")
+```
+---
+
+# Conclusion
+
+- Conflicts impact the quality of performance of chess players.
+- Marginal evidence for "more aggressive" games played.
+- Impact is not uniform: Ukrainian and Azeri players showed worse performance.
+  - "Initiating side" theory? `r emo::ji("cross_mark")`
+  - Public support of the conflict? Both Russia and Armenia received weaker support.
+    - More public support -> worse concentration and/or more aggressiveness -> worse performance
+  
 ---
 
 class: center, middle

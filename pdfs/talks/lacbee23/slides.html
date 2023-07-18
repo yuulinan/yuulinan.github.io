@@ -44,6 +44,10 @@ class: center, middle, inverse, title-slide
 
 
 
+`\(\\[1cm]\)`
+&lt;img src="chat.jpeg" width="50%" style="display: block; margin: auto;" /&gt;
+
+---
 
 **Research question:**
 - Is nationalism "a thing" in online platforms? 
@@ -66,7 +70,7 @@ class: center, middle, inverse, title-slide
 
 ---
 
-# Motivation
+# Conflicts
 
 Nagorno-Karabakh conflict between Azerbaijan and Armenia, Oct-Nov 2020
 
@@ -78,12 +82,12 @@ library(leaflet)
 leaflet() %&gt;% addTiles() %&gt;% setView(43.1, 41.5, zoom = 5)
 ```
 
-<div class="leaflet html-widget html-fill-item-overflow-hidden html-fill-item" id="htmlwidget-dd458ec7cff1aa58605d" style="width:100%;height:288px;"></div>
-<script type="application/json" data-for="htmlwidget-dd458ec7cff1aa58605d">{"x":{"options":{"crs":{"crsClass":"L.CRS.EPSG3857","code":null,"proj4def":null,"projectedBounds":null,"options":{}}},"calls":[{"method":"addTiles","args":["https://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png",null,null,{"minZoom":0,"maxZoom":18,"tileSize":256,"subdomains":"abc","errorTileUrl":"","tms":false,"noWrap":false,"zoomOffset":0,"zoomReverse":false,"opacity":1,"zIndex":1,"detectRetina":false,"attribution":"&copy; <a href=\"https://openstreetmap.org\">OpenStreetMap<\/a> contributors, <a href=\"https://creativecommons.org/licenses/by-sa/2.0/\">CC-BY-SA<\/a>"}]}],"setView":[[41.5,43.1],5,[]]},"evals":[],"jsHooks":[]}</script>
+<div class="leaflet html-widget html-fill-item-overflow-hidden html-fill-item" id="htmlwidget-2ebe6584886af55c0d15" style="width:100%;height:288px;"></div>
+<script type="application/json" data-for="htmlwidget-2ebe6584886af55c0d15">{"x":{"options":{"crs":{"crsClass":"L.CRS.EPSG3857","code":null,"proj4def":null,"projectedBounds":null,"options":{}}},"calls":[{"method":"addTiles","args":["https://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png",null,null,{"minZoom":0,"maxZoom":18,"tileSize":256,"subdomains":"abc","errorTileUrl":"","tms":false,"noWrap":false,"zoomOffset":0,"zoomReverse":false,"opacity":1,"zIndex":1,"detectRetina":false,"attribution":"&copy; <a href=\"https://openstreetmap.org\">OpenStreetMap<\/a> contributors, <a href=\"https://creativecommons.org/licenses/by-sa/2.0/\">CC-BY-SA<\/a>"}]}],"setView":[[41.5,43.1],5,[]]},"evals":[],"jsHooks":[]}</script>
 
 ---
 
-# Motivation
+# Conflicts
 
 Conflict between Ukraine and Russia, Feb 2022-cont.
 
@@ -95,8 +99,8 @@ library(leaflet)
 leaflet() %&gt;% addTiles() %&gt;% setView(33.1, 51.5, zoom = 4)
 ```
 
-<div class="leaflet html-widget html-fill-item-overflow-hidden html-fill-item" id="htmlwidget-349e6b15550f2c5b371c" style="width:100%;height:288px;"></div>
-<script type="application/json" data-for="htmlwidget-349e6b15550f2c5b371c">{"x":{"options":{"crs":{"crsClass":"L.CRS.EPSG3857","code":null,"proj4def":null,"projectedBounds":null,"options":{}}},"calls":[{"method":"addTiles","args":["https://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png",null,null,{"minZoom":0,"maxZoom":18,"tileSize":256,"subdomains":"abc","errorTileUrl":"","tms":false,"noWrap":false,"zoomOffset":0,"zoomReverse":false,"opacity":1,"zIndex":1,"detectRetina":false,"attribution":"&copy; <a href=\"https://openstreetmap.org\">OpenStreetMap<\/a> contributors, <a href=\"https://creativecommons.org/licenses/by-sa/2.0/\">CC-BY-SA<\/a>"}]}],"setView":[[51.5,33.1],4,[]]},"evals":[],"jsHooks":[]}</script>
+<div class="leaflet html-widget html-fill-item-overflow-hidden html-fill-item" id="htmlwidget-3461effe4afccdf6ba60" style="width:100%;height:288px;"></div>
+<script type="application/json" data-for="htmlwidget-3461effe4afccdf6ba60">{"x":{"options":{"crs":{"crsClass":"L.CRS.EPSG3857","code":null,"proj4def":null,"projectedBounds":null,"options":{}}},"calls":[{"method":"addTiles","args":["https://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png",null,null,{"minZoom":0,"maxZoom":18,"tileSize":256,"subdomains":"abc","errorTileUrl":"","tms":false,"noWrap":false,"zoomOffset":0,"zoomReverse":false,"opacity":1,"zIndex":1,"detectRetina":false,"attribution":"&copy; <a href=\"https://openstreetmap.org\">OpenStreetMap<\/a> contributors, <a href=\"https://creativecommons.org/licenses/by-sa/2.0/\">CC-BY-SA<\/a>"}]}],"setView":[[51.5,33.1],4,[]]},"evals":[],"jsHooks":[]}</script>
 
 ---
 # Research setting
@@ -116,7 +120,7 @@ leaflet() %&gt;% addTiles() %&gt;% setView(33.1, 51.5, zoom = 4)
 **Research question:**
 - Do people (chess players) reflect international conflict on their behavior?
   - Do they play more "aggressively"?
-  - Does the impact depend on who initiated the war/"winning" side?
+  - Does the impact depend on who initiated the war/army size?
 
 ---
 
@@ -126,7 +130,7 @@ leaflet() %&gt;% addTiles() %&gt;% setView(33.1, 51.5, zoom = 4)
 
 - Conflict &amp; soccer data
   - Depetris-Chauvin et. al. (2020): Africa Cup of Nations &amp; civil conflict
-  - Caruso et. al. (2017): Referees
+  - Caruso et. al. (2017): Referee decisions
   - Miguel et. al. (2010): Violent behavior on the pitch
 
 ---
@@ -199,24 +203,53 @@ where `\(H_{ijg}\)` equals 1 if a game `\(g\)` between player `\(i\)` and player
 # Results
 
 &lt;div class="figure" style="text-align: center"&gt;
-&lt;img src="image11.png" alt="Reduced form results, Complexity" width="60%" /&gt;
-&lt;p class="caption"&gt;Reduced form results, Complexity&lt;/p&gt;
+&lt;img src="image1111.png" alt="Reduced form results, Complexity, AZ-ARM conflict" width="99%" /&gt;
+&lt;p class="caption"&gt;Reduced form results, Complexity, AZ-ARM conflict&lt;/p&gt;
 &lt;/div&gt;
 ---
 
 # Results
 
 &lt;div class="figure" style="text-align: center"&gt;
-&lt;img src="image12.png" alt="Reduced form results, ACPL" width="60%" /&gt;
-&lt;p class="caption"&gt;Reduced form results, ACPL&lt;/p&gt;
+&lt;img src="image1212.png" alt="Reduced form results, ACPL, AZ-ARM conflict" width="99%" /&gt;
+&lt;p class="caption"&gt;Reduced form results, ACPL, AZ-ARM conflict&lt;/p&gt;
 &lt;/div&gt;
+---
+
+# Results
+
+&lt;div class="figure" style="text-align: center"&gt;
+&lt;img src="image13.png" alt="Reduced form results, Complexity, UA-RU conflict" width="99%" /&gt;
+&lt;p class="caption"&gt;Reduced form results, Complexity, UA-RU conflict&lt;/p&gt;
+&lt;/div&gt;
+---
+
+# Results
+
+&lt;div class="figure" style="text-align: center"&gt;
+&lt;img src="image14.png" alt="Reduced form results, ACPL, UA-RU conflict" width="99%" /&gt;
+&lt;p class="caption"&gt;Reduced form results, ACPL, UA-RU conflict&lt;/p&gt;
+&lt;/div&gt;
+
+---
+
+# Results
+
+`\(\\[1cm]\)`
+&lt;img src="counts-azarm.png" width="90%" style="display: block; margin: auto;" /&gt;
+---
+
+# Results
+
+`\(\\[1cm]\)`
+&lt;img src="counts-uaru.png" width="90%" style="display: block; margin: auto;" /&gt;
 ---
 
 # Results
 
 `\(\\[1cm]\)`
 &lt;div class="figure" style="text-align: center"&gt;
-&lt;img src="image8.png" alt="Differences in Differences regression results, AZ-ARM conflict (all sample)" width="60%" /&gt;
+&lt;img src="graph1a.png" alt="Differences in Differences regression results, AZ-ARM conflict (all sample)" width="60%" /&gt;
 &lt;p class="caption"&gt;Differences in Differences regression results, AZ-ARM conflict (all sample)&lt;/p&gt;
 &lt;/div&gt;
 ---
@@ -225,7 +258,7 @@ where `\(H_{ijg}\)` equals 1 if a game `\(g\)` between player `\(i\)` and player
 
 `\(\\[1cm]\)`
 &lt;div class="figure" style="text-align: center"&gt;
-&lt;img src="image9.png" alt="Differences in Differences regression results (Azeri players)" width="60%" /&gt;
+&lt;img src="graph2a.png" alt="Differences in Differences regression results (Azeri players)" width="60%" /&gt;
 &lt;p class="caption"&gt;Differences in Differences regression results (Azeri players)&lt;/p&gt;
 &lt;/div&gt;
 ---
@@ -234,9 +267,83 @@ where `\(H_{ijg}\)` equals 1 if a game `\(g\)` between player `\(i\)` and player
 
 `\(\\[1cm]\)`
 &lt;div class="figure" style="text-align: center"&gt;
-&lt;img src="image10.png" alt="Differences in Differences regression results (Armenian players)" width="60%" /&gt;
+&lt;img src="graph3a.png" alt="Differences in Differences regression results (Armenian players)" width="60%" /&gt;
 &lt;p class="caption"&gt;Differences in Differences regression results (Armenian players)&lt;/p&gt;
 &lt;/div&gt;
+---
+
+# Results
+
+`\(\\[1cm]\)`
+&lt;div class="figure" style="text-align: center"&gt;
+&lt;img src="graph4a.png" alt="Differences in Differences regression results: game outcomes" width="53%" /&gt;
+&lt;p class="caption"&gt;Differences in Differences regression results: game outcomes&lt;/p&gt;
+&lt;/div&gt;
+---
+
+# Results
+
+`\(\\[1cm]\)`
+&lt;div class="figure" style="text-align: center"&gt;
+&lt;img src="graph5a.png" alt="Differences in Differences regression results: secondary outcomes" width="80%" /&gt;
+&lt;p class="caption"&gt;Differences in Differences regression results: secondary outcomes&lt;/p&gt;
+&lt;/div&gt;
+---
+
+# Results
+
+`\(\\[1cm]\)`
+&lt;div class="figure" style="text-align: center"&gt;
+&lt;img src="graph1u.png" alt="Differences in Differences regression results, UA-RU conflict (all sample)" width="60%" /&gt;
+&lt;p class="caption"&gt;Differences in Differences regression results, UA-RU conflict (all sample)&lt;/p&gt;
+&lt;/div&gt;
+---
+
+# Results
+
+`\(\\[1cm]\)`
+&lt;div class="figure" style="text-align: center"&gt;
+&lt;img src="graph2u.png" alt="Differences in Differences regression results (Ukrainian players)" width="60%" /&gt;
+&lt;p class="caption"&gt;Differences in Differences regression results (Ukrainian players)&lt;/p&gt;
+&lt;/div&gt;
+---
+
+# Results
+
+`\(\\[1cm]\)`
+&lt;div class="figure" style="text-align: center"&gt;
+&lt;img src="graph3u.png" alt="Differences in Differences regression results (Russian players)" width="60%" /&gt;
+&lt;p class="caption"&gt;Differences in Differences regression results (Russian players)&lt;/p&gt;
+&lt;/div&gt;
+---
+
+# Results
+
+`\(\\[1cm]\)`
+&lt;div class="figure" style="text-align: center"&gt;
+&lt;img src="graph4u.png" alt="Differences in Differences regression results: game outcomes" width="55%" /&gt;
+&lt;p class="caption"&gt;Differences in Differences regression results: game outcomes&lt;/p&gt;
+&lt;/div&gt;
+---
+
+# Results
+
+`\(\\[1cm]\)`
+&lt;div class="figure" style="text-align: center"&gt;
+&lt;img src="graph5u.png" alt="Differences in Differences regression results: secondary outcomes" width="95%" /&gt;
+&lt;p class="caption"&gt;Differences in Differences regression results: secondary outcomes&lt;/p&gt;
+&lt;/div&gt;
+---
+
+# Conclusion
+
+- Conflicts impact the quality of performance of chess players.
+- Marginal evidence for "more aggressive" games played.
+- Impact is not uniform: Ukrainian and Azeri players showed worse performance.
+  - "Initiating side" theory? ❌
+  - Public support of the conflict? Both Russia and Armenia received weaker support.
+    - More public support -&gt; worse concentration and/or more aggressiveness -&gt; worse performance
+  
 ---
 
 class: center, middle
