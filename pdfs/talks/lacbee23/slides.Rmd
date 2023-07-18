@@ -317,3 +317,10 @@ class: center, middle
 Slides created via the R package [**xaringan**](https://github.com/yihui/xaringan).
 
 Backend support from [remark.js](https://remarkjs.com), [**knitr**](https://yihui.org/knitr/), and [R Markdown](https://rmarkdown.rstudio.com).
+
+For questions and comments, you can reach me at
+[**bilene@dickinson.edu**](bilene@dickinson.edu).
+
+```{r,echo=F, out.width="15%",fig.align="center"}
+knitr::include_graphics("qr.png")
+```
