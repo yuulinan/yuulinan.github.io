@@ -4,7 +4,6 @@
     <title>Nationalism in Online Games: Impacts of International Conflicts on Chess Player Behavior</title>
     <meta charset="utf-8" />
     <meta name="author" content="Eren Bilen, Assistant Professor of Data Analytics" />
-    <meta name="date" content="2023-07-20" />
     <script src="libs/header-attrs/header-attrs.js"></script>
     <link href="libs/remark-css/default.css" rel="stylesheet" />
     <link href="libs/remark-css/default-fonts.css" rel="stylesheet" />
@@ -35,7 +34,7 @@ class: center, middle, inverse, title-slide
 ### Dickinson College
 ]
 .date[
-### July 20, 2023
+### LACBEE 23, July 20, 2023
 ]
 
 ---
@@ -53,10 +52,10 @@ class: center, middle, inverse, title-slide
 - Is nationalism "a thing" in online platforms? 
 
 --
-  - Are the participants responsive to international conflicts? &lt;br&gt; Behavioral responses, aggressiveness..
+  - Do participants response to international conflicts? &lt;br&gt; Behavioral responses, aggressiveness..
   
 --
-  - Potentially problematic for the platform.
+- Potentially problematic for the platform. (Organizer's POV)
   
 --
 
@@ -72,6 +71,16 @@ class: center, middle, inverse, title-slide
 
 # Conflicts
 
+Uppsala Conflict Data Program (UCDP) Dyadic Dataset version 23.1
+
+- Two countries
+- "Substantial" military involvement (X number of soldiers actively engaged)
+- Since 2010
+
+---
+
+# Conflicts
+
 Nagorno-Karabakh conflict between Azerbaijan and Armenia, Oct-Nov 2020
 
 ~5,000-10,000 casualties (mostly military)
@@ -82,8 +91,8 @@ library(leaflet)
 leaflet() %&gt;% addTiles() %&gt;% setView(43.1, 41.5, zoom = 5)
 ```
 
-<div class="leaflet html-widget html-fill-item-overflow-hidden html-fill-item" id="htmlwidget-73e78f127a581b18e449" style="width:100%;height:288px;"></div>
-<script type="application/json" data-for="htmlwidget-73e78f127a581b18e449">{"x":{"options":{"crs":{"crsClass":"L.CRS.EPSG3857","code":null,"proj4def":null,"projectedBounds":null,"options":{}}},"calls":[{"method":"addTiles","args":["https://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png",null,null,{"minZoom":0,"maxZoom":18,"tileSize":256,"subdomains":"abc","errorTileUrl":"","tms":false,"noWrap":false,"zoomOffset":0,"zoomReverse":false,"opacity":1,"zIndex":1,"detectRetina":false,"attribution":"&copy; <a href=\"https://openstreetmap.org\">OpenStreetMap<\/a> contributors, <a href=\"https://creativecommons.org/licenses/by-sa/2.0/\">CC-BY-SA<\/a>"}]}],"setView":[[41.5,43.1],5,[]]},"evals":[],"jsHooks":[]}</script>
+<div class="leaflet html-widget html-fill-item-overflow-hidden html-fill-item" id="htmlwidget-d569c0568fe92adae6d2" style="width:100%;height:288px;"></div>
+<script type="application/json" data-for="htmlwidget-d569c0568fe92adae6d2">{"x":{"options":{"crs":{"crsClass":"L.CRS.EPSG3857","code":null,"proj4def":null,"projectedBounds":null,"options":{}}},"calls":[{"method":"addTiles","args":["https://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png",null,null,{"minZoom":0,"maxZoom":18,"tileSize":256,"subdomains":"abc","errorTileUrl":"","tms":false,"noWrap":false,"zoomOffset":0,"zoomReverse":false,"opacity":1,"zIndex":1,"detectRetina":false,"attribution":"&copy; <a href=\"https://openstreetmap.org\">OpenStreetMap<\/a> contributors, <a href=\"https://creativecommons.org/licenses/by-sa/2.0/\">CC-BY-SA<\/a>"}]}],"setView":[[41.5,43.1],5,[]]},"evals":[],"jsHooks":[]}</script>
 
 ---
 
@@ -99,8 +108,8 @@ library(leaflet)
 leaflet() %&gt;% addTiles() %&gt;% setView(33.1, 51.5, zoom = 4)
 ```
 
-<div class="leaflet html-widget html-fill-item-overflow-hidden html-fill-item" id="htmlwidget-8815abf03b14392cd479" style="width:100%;height:288px;"></div>
-<script type="application/json" data-for="htmlwidget-8815abf03b14392cd479">{"x":{"options":{"crs":{"crsClass":"L.CRS.EPSG3857","code":null,"proj4def":null,"projectedBounds":null,"options":{}}},"calls":[{"method":"addTiles","args":["https://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png",null,null,{"minZoom":0,"maxZoom":18,"tileSize":256,"subdomains":"abc","errorTileUrl":"","tms":false,"noWrap":false,"zoomOffset":0,"zoomReverse":false,"opacity":1,"zIndex":1,"detectRetina":false,"attribution":"&copy; <a href=\"https://openstreetmap.org\">OpenStreetMap<\/a> contributors, <a href=\"https://creativecommons.org/licenses/by-sa/2.0/\">CC-BY-SA<\/a>"}]}],"setView":[[51.5,33.1],4,[]]},"evals":[],"jsHooks":[]}</script>
+<div class="leaflet html-widget html-fill-item-overflow-hidden html-fill-item" id="htmlwidget-fe433b4dcf348235ac90" style="width:100%;height:288px;"></div>
+<script type="application/json" data-for="htmlwidget-fe433b4dcf348235ac90">{"x":{"options":{"crs":{"crsClass":"L.CRS.EPSG3857","code":null,"proj4def":null,"projectedBounds":null,"options":{}}},"calls":[{"method":"addTiles","args":["https://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png",null,null,{"minZoom":0,"maxZoom":18,"tileSize":256,"subdomains":"abc","errorTileUrl":"","tms":false,"noWrap":false,"zoomOffset":0,"zoomReverse":false,"opacity":1,"zIndex":1,"detectRetina":false,"attribution":"&copy; <a href=\"https://openstreetmap.org\">OpenStreetMap<\/a> contributors, <a href=\"https://creativecommons.org/licenses/by-sa/2.0/\">CC-BY-SA<\/a>"}]}],"setView":[[51.5,33.1],4,[]]},"evals":[],"jsHooks":[]}</script>
 
 ---
 # Research setting
@@ -119,6 +128,7 @@ leaflet() %&gt;% addTiles() %&gt;% setView(33.1, 51.5, zoom = 4)
 --
 **Research question:**
 - Do people (chess players) reflect international conflict on their behavior?
+  - How do they perform? I.e., accuracy
   - Do they play more "aggressively"?
   - Does the impact depend on who initiated the war/army size?
 
@@ -127,6 +137,8 @@ leaflet() %&gt;% addTiles() %&gt;% setView(33.1, 51.5, zoom = 4)
 # Relevant Literature
 
 - Conflicts alter perception and foster identity: Caceres-Delpiano et. al. (2021), Gehring (2022) among others.
+
+- Performance under stress: Cahlíková et. al. 2020 etc.
 
 - Conflict &amp; soccer data
   - Depetris-Chauvin et. al. (2020): Africa Cup of Nations &amp; civil conflict
@@ -157,12 +169,12 @@ leaflet() %&gt;% addTiles() %&gt;% setView(33.1, 51.5, zoom = 4)
 
 - Estimate probability of making a mistake on a given position
   - Most positions are unique, so can't look at historical data
-  - **Solution:** Machine learning, i.e., neural network that learns the types positions and where mistakes happen the most
+  - **Solution:** Machine learning, e.g., a neural network that learns the "types" of positions and where mistakes happen the most
 
 &lt;img src="image3.png" width="70%" style="display: block; margin: auto;" /&gt;
 `\(\\[.1cm]\)`
 - Trained on a separate sample with 25,000 games played in tournaments, ~2 million moves
-- Use the model to estimate the complexity of games in the conflict sample
+- Use the model to estimate the complexity of games in the "conflict sample"
 
 ---
 
@@ -342,7 +354,7 @@ where `\(H_{ijg}\)` equals 1 if a game `\(g\)` between player `\(i\)` and player
 - Impact is not uniform: Ukrainian and Azeri players showed worse performance.
   - "Initiating side" theory? ❌
   - Public support of the conflict? Both Russia and Armenia received weaker support.
-    - More public support -&gt; worse concentration and/or more aggressiveness -&gt; worse performance
+    - More public support -&gt; worse concentration and/or (some) more aggressiveness -&gt; worse performance
   
 ---
 

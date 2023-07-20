@@ -3,7 +3,7 @@ title: "Nationalism in Online Games: Impacts of International Conflicts on Chess
 subtitle: "⚔<br/>with Nino Doghonadze (Uber), Robizon Khubulashvili (U of San Francisco), David Smerdon (U of Queensland)"
 author: "Eren Bilen, Assistant Professor of Data Analytics"
 institute: "Dickinson College"
-date: "July 20, 2023"
+date: "LACBEE 23, July 20, 2023"
 output:
   xaringan::moon_reader:
     lib_dir: libs
@@ -31,10 +31,10 @@ knitr::include_graphics("chat.jpeg")
 - Is nationalism "a thing" in online platforms? 
 
 --
-  - Are the participants responsive to international conflicts? <br> Behavioral responses, aggressiveness..
+  - Do participants response to international conflicts? <br> Behavioral responses, aggressiveness..
   
 --
-  - Potentially problematic for the platform.
+- Potentially problematic for the platform. (Organizer's POV)
   
 --
 
@@ -45,6 +45,16 @@ knitr::include_graphics("chat.jpeg")
 --
 
 <blockquote>Or, is war "just politics"?</blockquote>
+
+---
+
+# Conflicts
+
+Uppsala Conflict Data Program (UCDP) Dyadic Dataset version 23.1
+
+- Two countries
+- "Substantial" military involvement (X number of soldiers actively engaged)
+- Since 2010
 
 ---
 
@@ -89,6 +99,7 @@ $\\[.15cm]$
 --
 **Research question:**
 - Do people (chess players) reflect international conflict on their behavior?
+  - How do they perform? I.e., accuracy
   - Do they play more "aggressively"?
   - Does the impact depend on who initiated the war/army size?
 
@@ -97,6 +108,8 @@ $\\[.15cm]$
 # Relevant Literature
 
 - Conflicts alter perception and foster identity: Caceres-Delpiano et. al. (2021), Gehring (2022) among others.
+
+- Performance under stress: Cahlíková et. al. 2020 etc.
 
 - Conflict & soccer data
   - Depetris-Chauvin et. al. (2020): Africa Cup of Nations & civil conflict
@@ -131,14 +144,14 @@ knitr::include_graphics("image2.png")
 
 - Estimate probability of making a mistake on a given position
   - Most positions are unique, so can't look at historical data
-  - **Solution:** Machine learning, i.e., neural network that learns the types positions and where mistakes happen the most
+  - **Solution:** Machine learning, e.g., a neural network that learns the "types" of positions and where mistakes happen the most
 
 ```{r,echo=F, out.width="70%",fig.align="center"}
 knitr::include_graphics("image3.png")
 ```
 $\\[.1cm]$
 - Trained on a separate sample with 25,000 games played in tournaments, ~2 million moves
-- Use the model to estimate the complexity of games in the conflict sample
+- Use the model to estimate the complexity of games in the "conflict sample"
 
 ---
 
@@ -306,7 +319,7 @@ knitr::include_graphics("graph5u.png")
 - Impact is not uniform: Ukrainian and Azeri players showed worse performance.
   - "Initiating side" theory? `r emo::ji("cross_mark")`
   - Public support of the conflict? Both Russia and Armenia received weaker support.
-    - More public support -> worse concentration and/or more aggressiveness -> worse performance
+    - More public support -> worse concentration and/or (some) more aggressiveness -> worse performance
   
 ---
 
