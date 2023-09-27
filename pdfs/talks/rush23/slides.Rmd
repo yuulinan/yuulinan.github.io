@@ -74,7 +74,7 @@ knitr::include_graphics("chat.jpeg")
 
 --
 
-<!--![scale 30%](denied.gif)-->
+![scale 30%](denied.gif)
 
 
 
