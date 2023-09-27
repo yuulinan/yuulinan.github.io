@@ -96,6 +96,7 @@ knitr::include_graphics("chat.jpeg")
 --
 - [chess.com](https://chess.com) operates 24/7! (the biggest online chess platform)
   - ~30,000 games happen each hour worldwide
+  - Maybe some are during conflict?
   
 ---
 
@@ -192,15 +193,6 @@ knitr::include_graphics("image7.png")
 
 # Chess data
 
-$\\[1cm]$
-```{r,echo=F, out.width="40%",fig.align="center"}
-knitr::include_graphics("image2.png")
-```
-
----
-
-# Chess data
-
 ```{r,echo=F, out.width="80%",fig.align="center",fig.cap="Kasparov vs. Deep Blue, 1997"}
 knitr::include_graphics("deepblue.jpg")
 ```
@@ -211,6 +203,16 @@ knitr::include_graphics("deepblue.jpg")
 ```{r,echo=F, out.width="90%",fig.align="center",fig.cap='Claude Shannon (1950) "Programming a Computer for Playing Chess"'}
 knitr::include_graphics("shannon.png")
 ```
+
+---
+
+# Chess data
+
+$\\[1cm]$
+```{r,echo=F, out.width="40%",fig.align="center"}
+knitr::include_graphics("image2.png")
+```
+
 ---
 
 # Chess data: Board Complexity
@@ -261,7 +263,8 @@ knitr::include_graphics("image6.png")
 
 # Empirical Strategy in an Observational Setting
 
-- Natural Experiments can "get close" to Randomized Control Trials (RCTs), if done properly.
+- Natural Experiments can "get close" to Randomized Control Trials (RCTs), if done properly.<br>
+Example:
 - An RCT proposal: Go over a list of applicants who applied to a college. Flip a coin for each applicant. If H, offer admission, otherwise deny admission.
 
 --
