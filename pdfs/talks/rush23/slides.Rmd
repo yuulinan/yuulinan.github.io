@@ -165,18 +165,6 @@ count: false
   - Does the impact depend on who initiated the war/army size?
 
 ---
-# Relevant Literature
-
-- Conflicts alter perception and foster identity: Caceres-Delpiano et. al. (2021), Gehring (2022) among others.
-
-- Performance under stress: Cahlíková et. al. 2020 etc.
-
-- Conflict & soccer data
-  - Depetris-Chauvin et. al. (2020): Africa Cup of Nations & civil conflict
-  - Caruso et. al. (2017): Referee decisions
-  - Miguel et. al. (2010): Violent behavior on the pitch
-
----
 
 # Chess data
 
@@ -238,9 +226,6 @@ knitr::include_graphics("network.png")
 ```
 
 ---
-<iframe src="https://lichess.org/analysis/8/6k1/3p1n1p/2pP1B1P/2P1pP1B/K1n5/8/8_w_-_-_0_1?color=white" style="width: 400px; height: 644px;" allowtransparency="true" frameborder="0"></iframe>
-
----
 
 # Chess data: Board Complexity
 
@@ -258,12 +243,26 @@ $\\[1cm]$
 knitr::include_graphics("image6.png")
 ```
 
+---
+
+<iframe src="https://lichess.org/analysis/8/6k1/3p1n1p/2pP1B1P/2P1pP1B/K1n5/8/8_w_-_-_0_1?color=white" style="width: 400px; height: 644px;" allowtransparency="true" frameborder="0"></iframe>
+
+---
+
+# Chess data: Board Complexity
+
+$\\[1cm]$
+```{r,echo=F, out.width="40%",fig.align="center",fig.cap="In this position, our neural-network algorithm calculates the probability of making an error as 0.52 (about twice as high as the sample average) in an amount of 65 centipawns. In the game, white blundered (by playing Bf2) in an amount of 180 centipawns, according to Stockfish. Before this blunder, the position was a forced draw."}
+knitr::include_graphics("keymer.png")
+```
+
 
 ---
 
 # Empirical Strategy in an Observational Setting
 
-- Natural Experiments can "get close" to Randomized Control Trials (RCTs), if done properly.<br>
+- Natural Experiments can "get close" to Randomized Control Trials (RCTs), if done properly.
+<br><br>
 Example:
 - An RCT proposal: Go over a list of applicants who applied to a college. Flip a coin for each applicant. If H, offer admission, otherwise deny admission.
 
@@ -303,45 +302,47 @@ $Y_{ijg}$ include performance: average mistake, blunders; game outcomes e.g., wi
 
 # Results
 
-```{r,echo=F, out.width="99%",fig.align="center",fig.cap="Reduced form results, Complexity, AZ-ARM conflict"}
-knitr::include_graphics("image1111.png")
-```
----
-
-# Results
-
 ```{r,echo=F, out.width="99%",fig.align="center",fig.cap="Reduced form results, ACPL, AZ-ARM conflict"}
-knitr::include_graphics("image1212.png")
+knitr::include_graphics("acpl-matchvsnon-new.png")
 ```
 ---
 
 # Results
 
-```{r,echo=F, out.width="99%",fig.align="center",fig.cap="Reduced form results, Complexity, UA-RU conflict"}
-knitr::include_graphics("image13.png")
+```{r,echo=F, out.width="99%",fig.align="center",fig.cap="Reduced form results, Complexity, AZ-ARM conflict"}
+knitr::include_graphics("diff-matchvsnon-new.png")
 ```
 ---
 
 # Results
 
 ```{r,echo=F, out.width="99%",fig.align="center",fig.cap="Reduced form results, ACPL, UA-RU conflict"}
-knitr::include_graphics("image14.png")
+knitr::include_graphics("acpl-uaru-matchvsnon.png")
 ```
 
+---
+
+
+# Results
+
+```{r,echo=F, out.width="99%",fig.align="center",fig.cap="Reduced form results, Complexity, UA-RU conflict"}
+knitr::include_graphics("diff-uaru-matchvsnon.png")
+```
+---
+
+
+# Results
+
+$\\[1cm]$
+```{r,echo=F, out.width="90%",fig.align="center",fig.cap="Number of games played on chess.com"}
+knitr::include_graphics("counts-azarm_new.png")
+```
 ---
 
 # Results
 
 $\\[1cm]$
-```{r,echo=F, out.width="90%",fig.align="center"}
-knitr::include_graphics("counts-azarm.png")
-```
----
-
-# Results
-
-$\\[1cm]$
-```{r,echo=F, out.width="90%",fig.align="center"}
+```{r,echo=F, out.width="90%",fig.align="center",fig.cap="Number of games played on chess.com"}
 knitr::include_graphics("counts-uaru.png")
 ```
 ---
@@ -451,3 +452,19 @@ For questions and comments, you can reach me at
 ```{r,echo=F, out.width="15%",fig.align="center"}
 knitr::include_graphics("qr.png")
 ```
+
+---
+count: false
+
+# Relevant Literature
+
+- Conflicts alter perception and foster identity: Caceres-Delpiano et. al. (2021), Gehring (2022) among others.
+
+- Performance under stress: Cahlíková et. al. 2020 etc.
+
+- Conflict & soccer data
+  - Depetris-Chauvin et. al. (2020): Africa Cup of Nations & civil conflict
+  - Caruso et. al. (2017): Referee decisions
+  - Miguel et. al. (2010): Violent behavior on the pitch
+
+
