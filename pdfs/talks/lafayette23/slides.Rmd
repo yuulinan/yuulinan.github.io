@@ -451,8 +451,8 @@ knitr::include_graphics("event-uaru4.png")
 
 - Conflicts impact the quality of moves made by chess players, but no evidence for "aggressive" games played.
   - Good news!
-- Impact is not uniform: Armenian-Azerbaijani conflict had a greater impact in magnitude.
-  - Public support for the conflict? Russia consistently receives weak support.
+- Impact is not uniform: Armenian-Azerbaijani conflict showed larger coefficients.
+  - Public support for the conflict? Russia consistently shows weak support.
 - Players were resilient, played longer games and resigned less often post conflict.
   - Israel/Gaza conflict, smaller border conflicts between India and Pakistan, China.
 ---
