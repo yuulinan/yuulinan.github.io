@@ -196,8 +196,8 @@ $$\overline{error_{ig}} = \frac{\sum\nolimits_{m=1}^{M} \left|C^{computer}_{igm}
 
 # Chess data: Risk & Board Complexity
 - Aggressiveness/"risk level" of a chess game? 
-  - Gerdes and Gransmark, 2010 Labour Econ; Dreber et. al. 2013, JEBO: opening strategy
-  - Bilen and Matros, 2023, JEBO: neural-network
+  - Gerdes and Gransmark (2010, Labour Econ); Dreber et. al. (2013, JEBO): opening strategy
+  - Bilen and Matros (2023, JEBO): neural-network
 - Estimate probability of making a mistake on a given position
   - Most positions are unique, so can't look at historical data
   - **Solution:** Machine learning, e.g., a neural network that learns the "types" of positions and where mistakes happen the most
