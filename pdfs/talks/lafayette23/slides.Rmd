@@ -142,9 +142,9 @@ leaflet() %>% addTiles() %>% setView(33.1, 51.5, zoom = 4)
 ---
 # Relevant Literature
 
-- Conflicts alter perception and foster identity: Akerlof and Kranton (2000, QJE), Caceres-Delpiano et. al. (2021, JPubE), Gehring (2022, EJ), Guo and An (JDev), among others.
+- Conflicts alter perception and foster identity: Akerlof and Kranton (2000, QJE), Caceres-Delpiano et. al. (2021, JPubE), Gehring (2022, EJ), among others.
 
-- Emotional responses to "news": Sharkey and Shen (2021, PNAS): Mass shootings in the U.S.
+- Emotional responses to "news": Sharkey and Shen (2021, PNAS): Mass shootings in the U.S., Guo and An (2022, JDevE): Terrorist attacks in Africa
 
 - Performance under "stress": Cahlíková et. al. (2020, MS) etc.
 
