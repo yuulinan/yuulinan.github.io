@@ -15,7 +15,6 @@ output:
       after_body: insert-logo.html
 editor_options: 
   chunk_output_type: console
-
 ---
 
 <style>
@@ -132,7 +131,7 @@ leaflet() %>% addTiles() %>% setView(33.1, 51.5, zoom = 4)
 - We web-scraped games played by Armenian, Azerbaijani, Ukrainian, and Russian players before and after the start of conflict
 
   - Arm-Az: ~13,000 games with 6,000 during conflict
-  - Ukr-Ru: ~48,000 games with 18,000 during conflict
+  - Ukr-Ru: ~80,000 games with 20,000 during conflict
   
 - More refined research question: Do people (chess players) reflect international conflict on their behavior?
 - Outcomes we look at
