@@ -246,7 +246,7 @@ knitr::include_graphics("image6.png")
 - How do users get matched? Random. BUT, can someone "refuse" to play? Yes. (estimate the probability of "friendliness" through friend lists.)
 
 
-$Y_{ijg}=\gamma H_{ijg}+\pmb{X_{ijg}}'\pmb{\beta}+T_g+N_j+\alpha_i+u_{ijg}$
+$Y_{ijg}=\gamma H_{ijg}+\pmb{X_{ijg}}'\pmb{\beta}+T_g+\alpha_i+u_{ijg}$
 
 where $H_{ijg}$ equals 1 if a game $g$ between player $i$ and player $j$ happened between players of "treated" countries post the conflict starting date.
 
