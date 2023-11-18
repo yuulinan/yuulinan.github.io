@@ -1,9 +1,8 @@
 ---
-title: "Nationalism in Online Games: Impacts of International Conflicts on Chess Player Behavior"
-subtitle: "⚔<br/>with Nino Doghonadze (Uber), Robizon Khubulashvili (U of San Francisco), David Smerdon (U of Queensland)"
+title: "Discussion for ''Improving Student Comprehension Through Interactive Model Visualization''"
 author: "Eren Bilen, Assistant Professor of Data Analytics"
 institute: "Dickinson College"
-date: "Rush Hour Seminar, September 28, 2023"
+date: "SEA Meetings, 18 November 2023"
 output:
   xaringan::moon_reader:
     lib_dir: libs
@@ -26,14 +25,25 @@ options(htmltools.dir.version = FALSE)
 #countdown(minutes = 0, seconds = 10, top = 2,left = 5, right = 5)
 ```
 
-
 # Comments
-
-- Field experiment
+- My personal story with interactive graphing
 - Biggest challenge: interface
  - I love it (and I'm very picky)
- - Should be in steps. Next page/Next exercise button bottom right.
- - Show game theory fun game javascript
+ - Should be in steps? ''Next page/Next exercise button'' bottom right.
+ - Potential to gamify?: i.e. https://ncase.me/trust/
+ - A second idea: Students come up with questions - other students solve
+ 
+ ```{r,echo=F, out.width="45%",fig.align="center"}
+knitr::include_graphics("g2.png")
+```
+
+---
+
+# Comments cont.
+- Field experiment (but still can compare cohorts) 
+  - e.g., majoring in econ?
+  - Performance? Gains should be biggest in graphing questions
+- Citations from math lit. i.e., calculus?
 
 
 
@@ -41,13 +51,13 @@ options(htmltools.dir.version = FALSE)
 
 class: center, middle
 
-# Thanks!
+# Thanks for the paper!
 
 Slides created via the R package [**xaringan**](https://github.com/yihui/xaringan).
 
 Backend support from [remark.js](https://remarkjs.com), [**knitr**](https://yihui.org/knitr/), and [R Markdown](https://rmarkdown.rstudio.com).
 
-For questions and comments, you can reach me at
+For further questions/comments, you can reach me at
 [**bilene@dickinson.edu**](bilene@dickinson.edu).
 
 ```{r,echo=F, out.width="15%",fig.align="center"}
