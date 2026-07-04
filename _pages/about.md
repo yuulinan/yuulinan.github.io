@@ -8,11 +8,7 @@ profile:
   align: right
   image: prof_pic.jpg
   image_circular: false # crops the image to make it circular
-  more_info: >
-    <p>Department of Economics</p>
-    <p>Colorado State University</p>
-    <p>Fort Collins, CO 80523</p>
-    <p><a href="mailto:Yuulin.An@colostate.edu">Yuulin.An@colostate.edu</a></p>
+  more_info: # contact info now lives at the bottom of the page body
 
 selected_papers: false # includes a list of papers marked as "selected={true}"
 social: true # includes social icons at the bottom of the page
@@ -39,3 +35,10 @@ latest_posts:
 I am Yuulin An, a Ph.D. candidate in Economics at Colorado State University.
 
 <!-- Replace this with a short introduction: your research interests, background, and what you're currently working on. -->
+
+<p>
+  Department of Economics<br>
+  Colorado State University<br>
+  Fort Collins, CO 80523<br>
+  <a href="mailto:Yuulin.An@colostate.edu">Yuulin.An@colostate.edu</a>
+</p>
