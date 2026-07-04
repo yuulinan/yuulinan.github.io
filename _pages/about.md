@@ -32,9 +32,7 @@ latest_posts:
   }
 </style>
 
-I am Yuulin An, a Ph.D. candidate in Economics at Colorado State University.
-
-<!-- Replace this with a short introduction: your research interests, background, and what you're currently working on. -->
+I'm a PhD candidate in Economics at Colorado State University. As an applied microeconomist, I am interested in understanding how environmental conditions and institutional contexts shape health and well-being of vulnerable populations such as pregnant mothers, infants, and older adults, and how public policies can mitigate these adverse outcomes.
 
 <p>
   Department of Economics<br>
