@@ -6,7 +6,7 @@ subtitle: Ph.D. Candidate in Economics, Colorado State University
 
 profile:
   align: right
-  image: prof_pic.jpg
+  image: yuulinan.png
   image_circular: false # crops the image to make it circular
   more_info: >
     <div class="home-links">
