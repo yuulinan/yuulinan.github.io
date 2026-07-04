@@ -45,7 +45,7 @@ latest_posts:
     margin-right: 0.3rem;
   }
 </style>
-<h3 class="title">**Welcome!**</h3> <br />
+<h3 class="title"><strong>Welcome!</strong></h3> <br />
 I'm a PhD candidate in Economics at Colorado State University. As an applied microeconomist, I am interested in understanding how environmental conditions and institutional contexts shape health and well-being of vulnerable populations such as pregnant mothers, infants, and older adults, and how public policies can mitigate these adverse outcomes.
 
 <h3 class="title">Contact Information:</h3> <br /> 
