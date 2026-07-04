@@ -2,8 +2,6 @@
 layout: about
 title: Home
 permalink: /
-nav: true
-nav_order: 1
 subtitle: Ph.D. Candidate in Economics, Colorado State University
 
 profile:
