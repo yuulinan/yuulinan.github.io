@@ -24,6 +24,18 @@ latest_posts:
   enabled: false # includes a list of the latest posts
 ---
 
+<style>
+  /* Make the name stand out */
+  .post-header .post-title {
+    font-weight: 700;
+  }
+  /* Subtitle: a little smaller than body text, and slightly muted */
+  .post-header .desc {
+    font-size: 0.9rem;
+    opacity: 0.7;
+  }
+</style>
+
 I am Yuulin An, a Ph.D. candidate in Economics at Colorado State University.
 
 <!-- Replace this with a short introduction: your research interests, background, and what you're currently working on. -->
