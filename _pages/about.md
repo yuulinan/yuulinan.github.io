@@ -35,8 +35,9 @@ latest_posts:
 I'm a PhD candidate in Economics at Colorado State University. As an applied microeconomist, I am interested in understanding how environmental conditions and institutional contexts shape health and well-being of vulnerable populations such as pregnant mothers, infants, and older adults, and how public policies can mitigate these adverse outcomes.
 
 <p>
+  <a href="mailto:Yuulin.An@colostate.edu">Yuulin.An@colostate.edu</a>
+  Office: Clark C309A
   Department of Economics<br>
   Colorado State University<br>
   Fort Collins, CO 80523<br>
-  <a href="mailto:Yuulin.An@colostate.edu">Yuulin.An@colostate.edu</a>
 </p>
