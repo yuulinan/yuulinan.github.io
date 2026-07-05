@@ -64,6 +64,10 @@ latest_posts:
 I'm a PhD candidate in Economics at Colorado State University. As an applied microeconomist, I am interested in understanding how environmental conditions and institutional contexts shape health and well-being of vulnerable populations such as pregnant mothers, infants, and older adults, and how public policies can mitigate these adverse outcomes.
 
 
+My job market paper studies the effects of airborne lead exposure on infant health outcomes using evidence from NASCAR's and ARCA's transition from leaded to unleaded gasoline in Texas in 2007. Other projects examine the effect of urban heat island on maternal and infant health, football games and provider decision-making, as well as aging and economic growth. 
+
+<p><strong>Research Interests: Applied Microeconomics, Health Economics, Environmental Economics, Aging</strong></p>
+
 <p><strong class="contact-label">Contact Information:</strong></p>
 <p>
   Email: <a href="mailto:Yuulin.An@colostate.edu">Yuulin.An@colostate.edu</a><br>
