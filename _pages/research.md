@@ -22,7 +22,7 @@ nav_order: 2
   .research-section h2 {
     font-size: 1.35rem;
     font-weight: 700;
-    color: #800020; /* burgundy */
+    color: #1E4D2B; /* CSU green */
     border-bottom: 1px solid var(--global-divider-color);
     padding-bottom: 0.3rem;
     margin-bottom: 0.9rem;
@@ -32,15 +32,15 @@ nav_order: 2
   }
   .paper .paper-title {
     font-weight: normal;
-    color: #800020; /* burgundy */
+    color: #1E4D2B; /* CSU green */
   }
-  /* Peer-reviewed citation: color the linked title burgundy too */
-  /* Keep the whole citation link burgundy, including <em> and <strong>,
+  /* Peer-reviewed citation: color the linked title CSU green too */
+  /* Keep the whole citation link CSU green, including <em> and <strong>,
      which the theme otherwise forces to the default text color. */
   .research-section .paper a,
   .research-section .paper a em,
   .research-section .paper a strong {
-    color: #800020; /* burgundy */
+    color: #1E4D2B; /* CSU green */
   }
   .paper .paper-meta {
     color: var(--global-text-color-light);

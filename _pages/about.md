@@ -48,16 +48,16 @@ latest_posts:
   .home-heading {
     font-size: 1.3rem;
     font-weight: 700;
-    color: #800020; /* burgundy */
+    color: #1E4D2B; /* CSU green */
     margin-top: 1.5rem;
     margin-bottom: 0.4rem;
   }
   .home-heading:first-of-type {
     margin-top: 0;
   }
-  /* Bold "Contact Information:" label in burgundy */
+  /* Bold "Contact Information:" label in CSU green */
   .contact-label {
-    color: #800020; /* burgundy */
+    color: #1E4D2B; /* CSU green */
   }
 </style>
 <h3 class="home-heading">Welcome!</h3>
