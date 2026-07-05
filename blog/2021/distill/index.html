@@ -76,6 +76,16 @@
             }
           }
     </script> </d-front-matter> <header> <style>
+    /* Site-wide accent color: olive green (RGB 85,107,47), replacing the
+       theme's default pink/purple in both light and dark mode. */
+    :root {
+      --global-theme-color: #556b2f !important;
+      --global-hover-color: #556b2f !important;
+    }
+    html[data-theme="dark"] {
+      --global-theme-color: #556b2f !important;
+      --global-hover-color: #556b2f !important;
+    }
     .navbar-brand.site-masthead {
       display: inline-flex;
       flex-direction: column;
