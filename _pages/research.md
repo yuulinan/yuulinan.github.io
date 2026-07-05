@@ -35,7 +35,11 @@ nav_order: 2
     color: #800020; /* burgundy */
   }
   /* Peer-reviewed citation: color the linked title burgundy too */
-  .research-section .paper a {
+  /* Keep the whole citation link burgundy, including <em> and <strong>,
+     which the theme otherwise forces to the default text color. */
+  .research-section .paper a,
+  .research-section .paper a em,
+  .research-section .paper a strong {
     color: #800020; /* burgundy */
   }
   .paper .paper-meta {
@@ -62,7 +66,7 @@ nav_order: 2
 <div class="research-section">
   <h2>Peer-Reviewed Articles</h2>
   <div class="paper">
-    <a href="https://www.sciencedirect.com/science/article/abs/pii/S2212828X25000209?via%3Dihub" target="_blank" rel="noopener">An, Y., Chin, S., &amp; Miller, R. (2025). Growing Old in Rural America: Measuring Late Life Health and Economic Well-being. <em>The Journal of the Economics of Ageing</em>, 31, 100565.</a>
+    <a href="https://www.sciencedirect.com/science/article/abs/pii/S2212828X25000209?via%3Dihub" target="_blank" rel="noopener"><strong>An, Y.</strong>, Chin, S., &amp; Miller, R. (2025). Growing Old in Rural America: Measuring Late Life Health and Economic Well-being. <em>The Journal of the Economics of Ageing</em>, 31, 100565.</a>
   </div>
 </div>
 
