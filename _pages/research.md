@@ -31,6 +31,11 @@ nav_order: 2
   }
   .paper .paper-title {
     font-weight: 600;
+    color: #800020; /* burgundy */
+  }
+  /* Peer-reviewed citation: color the linked title burgundy too */
+  .research-section .paper a {
+    color: #800020; /* burgundy */
   }
   .paper .paper-meta {
     color: var(--global-text-color-light);
