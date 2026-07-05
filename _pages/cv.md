@@ -7,7 +7,7 @@ nav_order: 4
 description:
 ---
 
-<a href="{{ '/assets/pdf/YuulinAn_CV.pdf' | relative_url }}" class="btn btn-sm z-depth-0" target="_blank" rel="noopener">
+<a href="{{ '/assets/pdf/YuulinAn_CV.pdf' | relative_url }}" class="btn z-depth-0" target="_blank" rel="noopener">
   <i class="fa-solid fa-file-pdf"></i> Download PDF
 </a>
 
