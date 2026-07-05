@@ -56,12 +56,12 @@ nav_order: 3
     <div class="course-title">ECON 235 &mdash; Working with Data</div>
     <div class="course-meta">Graduate Teaching Instructor &middot; Colorado State University &middot; Summer 2025 &ndash; present</div>
     <div class="course-desc">
-      A hands-on introduction to working with economic data: collecting, cleaning, analyzing, and visualizing data for empirical research. <!-- Edit this sentence, or I can pull a description from your course website. -->
+      A hands-on introduction to data management and analysis in Excel: sourcing, manipulating, and visualizing data with sorts and filters, logical and lookup functions, charts, and pivot tables, together with introductory statistical methods such as correlations and regressions.
     </div>
     <div class="course-links">
       <a href="/assets/pdf/econ235_syllabus.pdf" target="_blank" rel="noopener">Syllabus (PDF)</a>
       &nbsp;&middot;&nbsp;
-      <a href="COURSE_WEBSITE_URL" target="_blank" rel="noopener">Course Website</a>
+      <a href="https://github.com/yuulinan/Econ235_Fall25" target="_blank" rel="noopener">Course Website</a>
     </div>
     <div class="course-meta" style="margin-top: 0.35rem;">Taught: Summer 2025, Fall 2025 (2 sections), Spring 2026 (2 sections), Summer 2026.</div>
   </div>
