@@ -30,7 +30,7 @@ nav_order: 2
     margin-bottom: 1.1rem;
   }
   .paper .paper-title {
-    font-weight: 600;
+    font-weight: normal;
     color: #800020; /* burgundy */
   }
   /* Peer-reviewed citation: color the linked title burgundy too */
