@@ -55,8 +55,8 @@ latest_posts:
   .home-heading:first-of-type {
     margin-top: 0;
   }
-  /* Bold "Contact Information:" label in CSU green */
-  .contact-label {
+  /* Bold inline labels (Research Interests, Contact Information) in CSU green */
+  .green-label {
     color: #1E4D2B; /* CSU green */
   }
 </style>
@@ -66,9 +66,9 @@ I'm a PhD candidate in the <a href="https://economics.colostate.edu/" target="_b
 
 My job market paper studies the effects of airborne lead exposure on infant health outcomes using evidence from NASCAR's and ARCA's transition from leaded to unleaded gasoline in Texas in 2007. Other projects examine the effect of urban heat island on maternal and infant health, football games and provider decision-making, as well as aging and economic growth. 
 
-<p><strong>Research Interests:</strong> Applied Microeconomics, Health Economics, Environmental Economics, Aging</p>
+<p><strong class="green-label">Research Interests:</strong> Applied Microeconomics, Health Economics, Environmental Economics, Aging</p>
 
-<p><strong class="contact-label">Contact Information:</strong></p>
+<p><strong class="green-label">Contact Information:</strong></p>
 <p>
   Email: <a href="mailto:Yuulin.An@colostate.edu">Yuulin.An@colostate.edu</a><br>
   Office: Clark C309A<br>
