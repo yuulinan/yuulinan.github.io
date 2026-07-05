@@ -51,7 +51,7 @@ nav_order: 3
 </style>
 
 <div class="teaching-section">
-  <h2>Instructor of Record</h2>
+  <h2>Sole Instructor</h2>
   <div class="course">
     <div class="course-title">ECON 235 &mdash; Working with Data</div>
     <div class="course-meta">Graduate Teaching Instructor &middot; Colorado State University &middot; Summer 2025 &ndash; present</div>
