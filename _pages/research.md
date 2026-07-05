@@ -22,6 +22,7 @@ nav_order: 2
   .research-section h2 {
     font-size: 1.35rem;
     font-weight: 700;
+    color: #800020; /* burgundy */
     border-bottom: 1px solid var(--global-divider-color);
     padding-bottom: 0.3rem;
     margin-bottom: 0.9rem;
