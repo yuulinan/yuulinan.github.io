@@ -79,7 +79,7 @@ nav_order: 3
 </style>
 
 <div class="teaching-note">
-  <strong>On leave &middot; Fall 2026 (not teaching).</strong> I am a recipient of a departmental Dissertation Fellowship, which supports full-time work on my dissertation research this semester.
+  <strong>On leave &middot; Fall 2026 (not teaching).</strong> I am the recipient of the 2026 Department of Economics Dissertation Fellowship at Colorado State University, which provides full-time support for dissertation research during the semester.
 </div>
 
 <div class="teaching-section">
