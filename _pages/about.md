@@ -11,7 +11,7 @@ profile:
   more_info: >
     <div class="home-links">
       <a href="https://scholar.google.com/citations?user=qV0QdlEAAAAJ&hl=en" target="_blank" rel="noopener"><i class="ai ai-google-scholar"></i> Google Scholar</a>
-      <a href="https://www.linkedin.com/in/yuulin-an/" target="_blank" rel="noopener"><i class="fa-brands fa-linkedin"></i> LinkedIn</a>
+      <a href="https://www.linkedin.com/in/yuulinan/" target="_blank" rel="noopener"><i class="fa-brands fa-linkedin"></i> LinkedIn</a>
       <a href="https://github.com/yuulinan" target="_blank" rel="noopener"><i class="fa-brands fa-github"></i> GitHub</a>
     </div>
 
