@@ -83,7 +83,7 @@ nav_order: 3
 </div>
 
 <div class="teaching-section">
-  <h2>Instructor of Record</h2>
+  <h2>Sole Instructor</h2>
   <div class="course">
     <div class="course-title">ECON 235 &mdash; Working with Data</div>
     <div class="course-meta">Graduate Teaching Instructor &middot; Colorado State University &middot; Summer 2025 &ndash; present</div>
@@ -93,7 +93,7 @@ nav_order: 3
     <div class="course-links">
       <a href="/assets/pdf/econ235_syllabus.pdf" target="_blank" rel="noopener">Syllabus (PDF)</a>
       &nbsp;&middot;&nbsp;
-      <a href="https://github.com/yuulinan/Econ235_Fall25" target="_blank" rel="noopener">Course Website</a>
+      <a href="https://github.com/yuulinan/Econ235" target="_blank" rel="noopener">Course Website</a>
     </div>
     <div class="course-meta" style="margin-top: 0.35rem;">Taught: Summer 2025, Fall 2025 (2 sections), Spring 2026 (2 sections), Summer 2026.</div>
   </div>
