@@ -9,6 +9,7 @@ profile:
   image: yuulinan.png
   image_circular: false # crops the image to make it circular
   more_info: >
+    <div class="home-location"><i class="fa-solid fa-location-dot"></i> Fort Collins, CO</div>
     <div class="home-links">
       <a href="https://scholar.google.com/citations?user=qV0QdlEAAAAJ&hl=en" target="_blank" rel="noopener"><i class="ai ai-google-scholar"></i> Google Scholar</a>
       <a href="https://www.linkedin.com/in/yuulinan/" target="_blank" rel="noopener"><i class="fa-brands fa-linkedin"></i> LinkedIn</a>
@@ -31,9 +32,17 @@ latest_posts:
   .post-header {
     display: none;
   }
-  /* Home-page sidebar links under the photo */
-  .home-links {
+  /* Home-page location + sidebar links under the photo */
+  .home-location {
     margin-top: 0.75rem;
+  }
+  .home-location i {
+    width: 1.3rem;
+    text-align: center;
+    margin-right: 0.3rem;
+  }
+  .home-links {
+    margin-top: 0.35rem;
   }
   .home-links a {
     display: block;
