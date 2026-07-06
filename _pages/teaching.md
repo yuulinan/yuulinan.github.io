@@ -57,6 +57,25 @@ nav_order: 3
     border-radius: 0 4px 4px 0;
     font-size: 0.95rem;
   }
+  /* Teaching effectiveness stats + quotes */
+  .te-intro {
+    font-size: 0.95rem;
+    margin-bottom: 0.6rem;
+  }
+  .te-stats {
+    margin: 0 0 1rem 1.1rem;
+    font-size: 0.95rem;
+  }
+  .te-stats li {
+    margin: 0.2rem 0;
+  }
+  .te-stats strong {
+    color: #1E4D2B; /* CSU green */
+  }
+  .te-quotes blockquote {
+    font-style: italic;
+    font-size: 0.95rem;
+  }
 </style>
 
 <div class="teaching-note">
@@ -89,5 +108,26 @@ nav_order: 3
   <div class="course">
     <div class="course-title">ECON 204 &mdash; Principles of Macroeconomics</div>
     <div class="course-meta">Graduate Teaching Assistant &middot; Colorado State University &middot; Fall 2023, Spring 2025</div>
+  </div>
+</div>
+
+<div class="teaching-section">
+  <h2>Teaching Effectiveness</h2>
+  <p class="te-intro">Students consistently rate my teaching highly on organization, clarity, engagement, and inclusiveness. Selected measures from formal course evaluations:</p>
+  <ul class="te-stats">
+    <li><strong>100%</strong> &mdash; assignments had a positive impact on learning</li>
+    <li><strong>88%</strong> &mdash; clarity of expectations and grading (rated a strength)</li>
+    <li><strong>82%</strong> &mdash; accessibility and usefulness of materials (strength)</li>
+    <li><strong>80%</strong> &mdash; class discussions had a positive impact</li>
+    <li><strong>76%</strong> &mdash; inclusive learning environment (strength)</li>
+    <li><strong>76%</strong> &mdash; appropriate level of challenge (strength)</li>
+  </ul>
+  <div class="te-quotes">
+    <blockquote>&ldquo;Amazing instructor &mdash; the only thing that got me through Econ. Careful, thoughtful explanations. Really takes her time with students and is easy to contact.&rdquo;</blockquote>
+    <blockquote>&ldquo;You did a phenomenal job teaching the course, and I have gained an intuitive and useful understanding of Excel because of you!&rdquo;</blockquote>
+    <blockquote>&ldquo;I learned an immense number of skills and I now feel confident approaching and using Excel in my daily life.&rdquo;</blockquote>
+  </div>
+  <div class="course-links">
+    <a href="/assets/pdf/teaching_effectiveness.pdf" target="_blank" rel="noopener">Full teaching evaluations (PDF)</a>
   </div>
 </div>
