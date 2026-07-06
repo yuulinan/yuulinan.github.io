@@ -123,9 +123,9 @@ nav_order: 3
     <li><strong>76%</strong> &mdash; appropriate level of challenge (strength)</li>
   </ul>
   <div class="te-quotes">
-    <blockquote>&ldquo;Amazing instructor &mdash; the only thing that got me through Econ. Careful, thoughtful explanations. Really takes her time with students and is easy to contact.&rdquo;</blockquote>
-    <blockquote>&ldquo;You did a phenomenal job teaching the course, and I have gained an intuitive and useful understanding of Excel because of you!&rdquo;</blockquote>
-    <blockquote>&ldquo;I learned an immense number of skills and I now feel confident approaching and using Excel in my daily life.&rdquo;</blockquote>
+    <blockquote>&ldquo;Amazing instructor, the only thing that got me through Econ. Careful explanations and thoughtful explanations. Really takes her time with students, is easy to contact.&rdquo;</blockquote>
+    <blockquote>&ldquo;I personally feel that you did a phenomenal job teaching the course, and I have gained an intuitive and useful understanding of excel because of you!&rdquo;</blockquote>
+    <blockquote>&ldquo;thank you for teaching this class, I learned an immense number of skills and I now feel confident approaching and using excel in my daily life.&rdquo;</blockquote>
   </div>
   <div class="course-links">
     <a href="/assets/pdf/teaching_effectiveness.pdf" target="_blank" rel="noopener">Full teaching evaluations (PDF)</a>
