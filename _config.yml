@@ -338,8 +338,8 @@ display_categories: ["external-services"] # these categories will be displayed o
 # -----------------------------------------------------------------------------
 
 scholar:
-  last_name: [Einstein]
-  first_name: [Albert, A.]
+  last_name: [An]
+  first_name: [Yuulin]
 
   style: apa
   locale: en
@@ -680,9 +680,10 @@ third_party_libraries:
 # Get external JSON data
 # -----------------------------------------------------------------------------
 
-jekyll_get_json:
-  - data: resume
-    json: assets/json/resume.json # it can also be an url
+# Disabled: resume.json (Einstein example) was removed; the CV page uses an embedded PDF.
+# jekyll_get_json:
+#   - data: resume
+#     json: assets/json/resume.json
 
 jsonresume:
   - basics
