@@ -58,6 +58,14 @@ nav_order: 2
     margin-left: 0.4rem;
     white-space: nowrap;
   }
+  .paper-status {
+    font-size: 0.85rem;
+    font-weight: 600;
+    font-style: italic;
+    color: var(--global-text-color-light);
+    margin-left: 0.4rem;
+    white-space: nowrap;
+  }
 </style>
 
 <div class="research-section">
@@ -81,7 +89,7 @@ nav_order: 2
 <div class="research-section">
   <h2>Working Papers</h2>
   <div class="paper">
-    <div class="paper-title">Population Aging, Regional Integration, and Economic Growth Across U.S. Counties <a class="paper-pdf-link" href="{{ '/assets/pdf/Aging_and_Growth.pdf' | relative_url }}" target="_blank" rel="noopener">[PDF]</a></div>
+    <div class="paper-title">Population Aging, Regional Integration, and Economic Growth Across U.S. Counties <span class="paper-status">(Under Review)</span> <a class="paper-pdf-link" href="{{ '/assets/pdf/Aging_and_Growth.pdf' | relative_url }}" target="_blank" rel="noopener">[PDF]</a></div>
     <div class="paper-meta">with Tim Komarek and Ray Miller.</div>
   </div>
   <div class="paper">
