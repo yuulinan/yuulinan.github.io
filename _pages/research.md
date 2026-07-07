@@ -51,6 +51,13 @@ nav_order: 2
     font-size: 0.95rem;
     text-align: justify;
   }
+  .paper-pdf-link {
+    font-size: 0.9rem;
+    font-weight: 600;
+    color: #1E4D2B; /* CSU green */
+    margin-left: 0.4rem;
+    white-space: nowrap;
+  }
 </style>
 
 <div class="research-section">
@@ -67,13 +74,14 @@ nav_order: 2
   <h2>Peer-Reviewed Articles</h2>
   <div class="paper">
     <a href="https://www.sciencedirect.com/science/article/abs/pii/S2212828X25000209?via%3Dihub" target="_blank" rel="noopener"><strong>An, Y.</strong>, Chin, S., &amp; Miller, R. (2025). Growing Old in Rural America: Measuring Late Life Health and Economic Well-being. <em>The Journal of the Economics of Ageing</em>, 31, 100565.</a>
+    <a class="paper-pdf-link" href="{{ '/assets/pdf/An_Chin_Miller_JOEA_2025.pdf' | relative_url }}" target="_blank" rel="noopener">[PDF]</a>
   </div>
 </div>
 
 <div class="research-section">
   <h2>Working Papers</h2>
   <div class="paper">
-    <div class="paper-title">Population Aging, Regional Integration, and Economic Growth Across U.S. Counties</div>
+    <div class="paper-title">Population Aging, Regional Integration, and Economic Growth Across U.S. Counties <a class="paper-pdf-link" href="{{ '/assets/pdf/Aging_and_Growth.pdf' | relative_url }}" target="_blank" rel="noopener">[PDF]</a></div>
     <div class="paper-meta">with Tim Komarek and Ray Miller.</div>
   </div>
   <div class="paper">
