@@ -103,6 +103,9 @@ nav_order: 2
   <div class="paper">
     <div class="paper-title">When Football Comes to Town: Provider Decision-Making and Delivery Complications</div>
     <div class="paper-meta">with Sayorn Chin and Sammy Zahran.</div>
+    <div class="paper-abstract">
+      <strong>Abstract.</strong> This paper studies whether emotionally salient events affect physician decision-making and maternal health during childbirth using evidence from NCAA and NFL football games. We document three main findings. First, the probability of a non-cesarean, non-induced birth falls on NCAA football game days and rebounds the following day, consistent with deliveries being shifted around games. Second, exposure to NCAA football game weekends increases the probability of provider-sensitive complications by 0.23 percentage points, a 19 percent increase relative to the baseline rate. Third, these effects are concentrated among mothers with fewer economic resources. Low-SES mothers, uninsured mothers, and WIC recipients experience statistically significant increases in complications after correcting for multiple testing, while we find little evidence of differences by race. Overall, the results suggest that NCAA football games, particularly those played on Saturdays when hospital staffing is typically lower, can influence physician behavior and worsen maternal outcomes.
+  </div>
   </div>
   <div class="paper">
     <div class="paper-title">Urban Heat Island and Health</div>
