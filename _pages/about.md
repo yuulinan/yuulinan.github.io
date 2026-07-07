@@ -35,6 +35,7 @@ latest_posts:
   /* Home-page location + sidebar links under the photo */
   .home-location {
     margin-top: 0.75rem;
+    color: #1E4D2B; /* CSU green */
   }
   .home-location i {
     width: 1.3rem;
