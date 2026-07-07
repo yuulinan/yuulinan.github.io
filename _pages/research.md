@@ -105,10 +105,13 @@ nav_order: 2
     <div class="paper-meta">with Sayorn Chin and Sammy Zahran.</div>
     <div class="paper-abstract">
       <strong>Abstract.</strong> This paper studies whether emotionally salient events affect physician decision-making and maternal health during childbirth using evidence from NCAA and NFL football games. We document three main findings. First, the probability of a non-cesarean, non-induced birth falls on NCAA football game days and rebounds the following day, consistent with deliveries being shifted around games. Second, exposure to NCAA football game weekends increases the probability of provider-sensitive complications by 0.23 percentage points, a 19 percent increase relative to the baseline rate. Third, these effects are concentrated among mothers with fewer economic resources. Low-SES mothers, uninsured mothers, and WIC recipients experience statistically significant increases in complications after correcting for multiple testing, while we find little evidence of differences by race. Overall, the results suggest that NCAA football games, particularly those played on Saturdays when hospital staffing is typically lower, can influence physician behavior and worsen maternal outcomes.
-  </div>
+    </div>
   </div>
   <div class="paper">
     <div class="paper-title">Urban Heat Island and Health</div>
     <div class="paper-meta">with Tim Komarek and Sayorn Chin.</div>
+    <div class="paper-abstract">
+      <strong>Abstract.</strong> This paper asks whether in-utero exposure to extreme heat worsens birth outcomes in Texas, and whether urban heat islands (UHIs) amplify such effects. Using 2.5 million Texas birth records (2003--2010) linked to tract-level daily temperature and NLCD impervious surface coverage, the preliminary findings suggest that heat has no detectable effect on fetal growth (birth weight or low birth weight) conditional on gestational age, which may reflect selection via early fetal loss, behavioral adaptation, or other channels. The heat--imperviousness interaction is null or economically trivial across outcomes, and splits by AC proxies show no differential effects, tentatively consistent with the possibility that AC access mitigates heat exposure, though housing vintage and income are imperfect proxies. These results are provisional. 
+      </div>
   </div>
 </div>
