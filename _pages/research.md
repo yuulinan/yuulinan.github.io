@@ -74,11 +74,11 @@ nav_order: 2
   <h2>Working Papers</h2>
   <div class="paper">
     <div class="paper-title">Population Aging, Regional Integration, and Economic Growth Across U.S. Counties</div>
-    <div class="paper-meta">with Tim Komarek and Ray Miller. Draft available upon request.</div>
+    <div class="paper-meta">with Tim Komarek and Ray Miller.</div>
   </div>
   <div class="paper">
     <div class="paper-title">Maternal Lead Exposure and Birth Outcomes: Evidence from Natural Experiments in the Phase-out of Leaded Gasoline</div>
-    <div class="paper-meta">with Sammy Zahran, Christopher Keyes, and Sayorn Chin. Draft available upon request.</div>
+    <div class="paper-meta">with Sammy Zahran, Christopher Keyes, and Sayorn Chin.</div>
   </div>
 </div>
 
