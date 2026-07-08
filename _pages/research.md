@@ -82,7 +82,7 @@ nav_order: 2
   <h2>Peer-Reviewed Articles</h2>
   <div class="paper">
     <a href="https://www.sciencedirect.com/science/article/abs/pii/S2212828X25000209?via%3Dihub" target="_blank" rel="noopener"><strong>An, Y.</strong>, Chin, S., &amp; Miller, R. (2025). Growing Old in Rural America: Measuring Late Life Health and Economic Well-being. <em>The Journal of the Economics of Ageing</em>, 31, 100565.</a>
-    <a class="paper-pdf-link" href="{{ '/assets/pdf/An_Chin_Miller_JOEA_2025.pdf' | relative_url }}" target="_blank" rel="noopener">[PDF]</a>
+    <a class="paper-pdf-link" href="https://www.sciencedirect.com/science/article/abs/pii/S2212828X25000209?via%3Dihub" target="_blank" rel="noopener">[Link]</a>
   </div>
 </div>
 
