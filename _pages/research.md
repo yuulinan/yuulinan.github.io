@@ -61,7 +61,6 @@ nav_order: 2
   .paper-status {
     font-size: 0.85rem;
     font-weight: 600;
-    font-style: italic;
     color: var(--global-text-color-light);
     margin-left: 0.4rem;
     white-space: nowrap;
@@ -89,7 +88,7 @@ nav_order: 2
 <div class="research-section">
   <h2>Working Papers</h2>
   <div class="paper">
-    <div class="paper-title">Population Aging, Regional Integration, and Economic Growth Across U.S. Counties <span class="paper-status">Under Review at <a href="https://papers.ssrn.com/sol3/papers.cfm?abstract_id=6615578" target="_blank" rel="noopener"><strong>Regional Science and Urban Economics</strong></a></span> <a class="paper-pdf-link" href="https://papers.ssrn.com/sol3/papers.cfm?abstract_id=6615578" target="_blank" rel="noopener">[Link]</a></div>
+    <div class="paper-title">Population Aging, Regional Integration, and Economic Growth Across U.S. Counties <span class="paper-status">Under Review at <a href="https://papers.ssrn.com/sol3/papers.cfm?abstract_id=6615578" target="_blank" rel="noopener"><em><strong>Regional Science and Urban Economics</strong></em></a></span> <a class="paper-pdf-link" href="https://papers.ssrn.com/sol3/papers.cfm?abstract_id=6615578" target="_blank" rel="noopener">[Link]</a></div>
     <div class="paper-meta">with Tim Komarek and Ray Miller.</div>
   </div>
   <div class="paper">
