@@ -115,7 +115,7 @@ nav_order: 2
       </div>
   </div>
   <div class="paper">
-    <div class="paper-title"><a href="https://csuredi.org/redi_reports/population-aging-and-economic-growth-in-colorado-why-regional-connectivity-matters-for-rural-communities/" target="_blank" rel="noopener">Population Aging and Economic Growth in Colorado: Why Regional Connectivity Matters for Rural Communities. <em>Regional Economic Development Institute</em>em></a>, March 2026.</div>
+    <div class="paper-title"><a href="https://csuredi.org/redi_reports/population-aging-and-economic-growth-in-colorado-why-regional-connectivity-matters-for-rural-communities/" target="_blank" rel="noopener">Population Aging and Economic Growth in Colorado: Why Regional Connectivity Matters for Rural Communities. <em>Regional Economic Development Institute</em></a>, March 2026.</div>
     <div class="paper-meta">with Ray Miller and Tim Komarek.</div>
   </div>
 </div>
