@@ -97,7 +97,7 @@ nav_order: 2
   <h2>Selected Works in Progress</h2>
   <div class="paper">
     <div class="paper-title">Maternal Lead Exposure and Birth Outcomes: Evidence from Natural Experiments in the Phase-out of Leaded Gasoline</div>
-    <div class="paper-meta">with Sammy Zahran, Christopher Keyes, and Sayorn Chin.</div>
+    <div class="paper-meta">with Sammy Zahran, Christopher Keyes, Sayorn Chin, and Susan Averett.</div>
     <div class="paper-abstract">
       <strong>Abstract.</strong> Exploiting natural experiments in maternal exposure to tetraethyl-lead arising from the differential phase-out of leaded gasoline across the United States, and from the exogenous migration behavior of mothers during pregnancy, we find consistent evidence that fetal exposure to lead through the maternal blood lead pathway significantly affects infant health.
 Across an ensemble of tests, we find that an increase in maternal blood lead:
