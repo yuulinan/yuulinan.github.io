@@ -129,7 +129,7 @@ While the flow of lead into the lived environment has decreased substantially si
 <div class="research-section">
   <h2>Report</h2>
   <div class="paper">
-    <div class="paper-title">Population Aging and Economic Growth in Colorado: Why Regional Connectivity Matters for Rural Communities. <a href="https://csuredi.org/redi_reports/population-aging-and-economic-growth-in-colorado-why-regional-connectivity-matters-for-rural-communities/" target="_blank" rel="noopener"><em><strong>Regional Economic Development Institute</strong></em></a>, March 2026.</div>
+    <div class="paper-title">Population Aging and Economic Growth in Colorado: Why Regional Connectivity Matters for Rural Communities. <a href="https://csuredi.org/redi_reports/population-aging-and-economic-growth-in-colorado-why-regional-connectivity-matters-for-rural-communities/" target="_blank" rel="noopener"><em><strong>Regional Economic Development Institute</strong></em></a>, March 2026. <a class="paper-pdf-link" href="https://csuredi.org/redi_reports/population-aging-and-economic-growth-in-colorado-why-regional-connectivity-matters-for-rural-communities/" target="_blank" rel="noopener">[Link]</a></div>
     <div class="paper-meta">with Ray Miller and Tim Komarek.</div>
   </div>
 </div>
