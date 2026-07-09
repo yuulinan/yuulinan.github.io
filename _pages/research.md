@@ -80,7 +80,7 @@ nav_order: 2
 <div class="research-section">
   <h2>Peer-Reviewed Articles</h2>
   <div class="paper">
-    <a href="https://www.sciencedirect.com/science/article/abs/pii/S2212828X25000209?via%3Dihub" target="_blank" rel="noopener"><strong>An, Y.</strong>, Chin, S., &amp; Miller, R. (2025). Growing Old in Rural America: Measuring Late Life Health and Economic Well-being. <em>The Journal of the Economics of Ageing</em>, 31, 100565.</a>
+    <a href="https://www.sciencedirect.com/science/article/abs/pii/S2212828X25000209?via%3Dihub" target="_blank" rel="noopener"><strong>An, Y.</strong>, Chin, S., &amp; Miller, R. (2025). Growing Old in Rural America: Measuring Late Life Health and Economic Well-being. <em><strong>The Journal of the Economics of Ageing</strong></em>, 31, 100565.</a>
     <a class="paper-pdf-link" href="https://www.sciencedirect.com/science/article/abs/pii/S2212828X25000209?via%3Dihub" target="_blank" rel="noopener">[Link]</a>
   </div>
 </div>
@@ -91,14 +91,14 @@ nav_order: 2
     <div class="paper-title">Population Aging, Regional Integration, and Economic Growth Across U.S. Counties <span class="paper-status">Under Review at <a href="https://papers.ssrn.com/sol3/papers.cfm?abstract_id=6615578" target="_blank" rel="noopener"><em><strong>Regional Science and Urban Economics</strong></em></a></span> <a class="paper-pdf-link" href="https://papers.ssrn.com/sol3/papers.cfm?abstract_id=6615578" target="_blank" rel="noopener">[Link]</a></div>
     <div class="paper-meta">with Tim Komarek and Ray Miller.</div>
   </div>
-  <div class="paper">
-    <div class="paper-title">Maternal Lead Exposure and Birth Outcomes: Evidence from Natural Experiments in the Phase-out of Leaded Gasoline</div>
-    <div class="paper-meta">with Sammy Zahran, Christopher Keyes, and Sayorn Chin.</div>
-  </div>
 </div>
 
 <div class="research-section">
   <h2>Selected Works in Progress</h2>
+  <div class="paper">
+    <div class="paper-title">Maternal Lead Exposure and Birth Outcomes: Evidence from Natural Experiments in the Phase-out of Leaded Gasoline</div>
+    <div class="paper-meta">with Sammy Zahran, Christopher Keyes, and Sayorn Chin.</div>
+  </div>
   <div class="paper">
     <div class="paper-title">When Football Comes to Town: Provider Decision-Making and Delivery Complications</div>
     <div class="paper-meta">with Sayorn Chin and Sammy Zahran.</div>
