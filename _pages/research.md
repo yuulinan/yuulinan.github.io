@@ -113,8 +113,12 @@ nav_order: 2
       <strong>Abstract.</strong> This paper asks whether in-utero exposure to extreme heat worsens birth outcomes in Texas, and whether urban heat islands (UHIs) amplify such effects. Using 2.5 million Texas birth records (2003--2010) linked to tract-level daily temperature and NLCD impervious surface coverage, the preliminary findings suggest that heat has no detectable effect on fetal growth (birth weight or low birth weight) conditional on gestational age, which may reflect selection via early fetal loss, behavioral adaptation, or other channels. The heat--imperviousness interaction is null or economically trivial across outcomes, and splits by AC proxies show no differential effects, tentatively consistent with the possibility that AC access mitigates heat exposure, though housing vintage and income are imperfect proxies. These results are provisional. 
       </div>
   </div>
+</div>
+
+<div class="research-section">
+  <h2>Report</h2>
   <div class="paper">
-    <div class="paper-title"><a href="https://csuredi.org/redi_reports/population-aging-and-economic-growth-in-colorado-why-regional-connectivity-matters-for-rural-communities/" target="_blank" rel="noopener">Population Aging and Economic Growth in Colorado: Why Regional Connectivity Matters for Rural Communities. <em>Regional Economic Development Institute</em></a>, March 2026.</div>
+    <div class="paper-title">Population Aging and Economic Growth in Colorado: Why Regional Connectivity Matters for Rural Communities. <a href="https://csuredi.org/redi_reports/population-aging-and-economic-growth-in-colorado-why-regional-connectivity-matters-for-rural-communities/" target="_blank" rel="noopener"><em><strong>Regional Economic Development Institute</strong></em></a>, March 2026.</div>
     <div class="paper-meta">with Ray Miller and Tim Komarek.</div>
   </div>
 </div>
