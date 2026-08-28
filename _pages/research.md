@@ -22,6 +22,7 @@ nav_order: 2
   .research-section h2 {
     font-size: 1.35rem;
     font-weight: 700;
+    color: #1E4D2B; /* CSU green */
     border-bottom: 1px solid var(--global-divider-color);
     padding-bottom: 0.3rem;
     margin-bottom: 0.9rem;
@@ -30,12 +31,16 @@ nav_order: 2
     margin-bottom: 1.1rem;
   }
   .paper .paper-title {
-    font-weight: 600;
-    color: #800020; /* burgundy */
+    font-weight: normal;
+    color: #1E4D2B; /* CSU green */
   }
-  /* Peer-reviewed citation: color the linked title burgundy too */
-  .research-section .paper a {
-    color: #800020; /* burgundy */
+  /* Peer-reviewed citation: color the linked title CSU green too */
+  /* Keep the whole citation link CSU green, including <em> and <strong>,
+     which the theme otherwise forces to the default text color. */
+  .research-section .paper a,
+  .research-section .paper a em,
+  .research-section .paper a strong {
+    color: #1E4D2B; /* CSU green */
   }
   .paper .paper-meta {
     color: var(--global-text-color-light);
@@ -46,18 +51,30 @@ nav_order: 2
     font-size: 0.95rem;
     text-align: justify;
   }
+  .paper-pdf-link {
+    font-size: 0.9rem;
+    font-weight: 600;
+    color: #1E4D2B; /* CSU green */
+    margin-left: 0.4rem;
+    white-space: nowrap;
+  }
+  .paper-status {
+    font-size: 0.85rem;
+    font-weight: 600;
+    color: var(--global-text-color-light);
+    white-space: nowrap;
+  }
+  .paper-status strong {
+    font-weight: 700;
+  }
 </style>
 
 <div class="research-section">
   <h2>Job Market Paper</h2>
   <div class="paper">
-    <div class="paper-title">The Effect of Leaded Gasoline on Infant Health: Evidence from NASCAR Fuel Transition</div>
+    <div class="paper-title" style="font-weight: 700;">The Effect of Leaded Gasoline on Infant Health: Evidence from NASCAR Fuel Transition</div>
     <div class="paper-abstract">
-<<<<<<< Updated upstream
       <strong>Abstract.</strong> The National Association for Stock Car Auto Racing (NASCAR) and Automobile Racing Club of America (ARCA) races continued to use leaded gasoline until 2007, despite the removal of leaded gasoline from on-road vehicles long ago. Exploiting this novel quasi experiment, I study how airborne lead exposure affected birth outcomes using administrative birth records linked to race events at Texas Motor Speedway (TMS) in Fort Worth, Texas. Mothers living within 25 km of TMS see a reduction in infant birthweight, shortened gestation length, and an increased probability of low birthweight before the ban of lead from NASCAR and ARCA races, while a post-ban placebo yields coefficients near zero. To translate race-day exposures into blood lead burdens, I developed a pregnancy-specific physiologically based pharmacokinetic (PBPK) model that simulates maternal and fetal daily blood lead trajectories. I find that a one-standard-deviation increase in second-trimester PBPK blood lead reduces birthweight by approximately 73 grams. A potential mechanism suggests that lead increases gestational hypertension and shortens gestation, and these effects disappear after the transition to unleaded fuel. These findings suggest that even a relatively low level of lead can have a meaningful effect on maternal and infant health.
-=======
-      <strong>Abstract.</strong> NASCAR-sanctioned races used leaded gasoline through 2006, generating concentrated bursts of airborne lead emissions around active racetracks. I study how these exposures affected infant health using detailed Texas birth records linked to race events at Texas Motor Speedway (TMS) in Fort Worth. Identification relies on within-TMS variation in distance, wind direction, race timing, and race-specific emissions among mothers living within 25&nbsp;km of the same track. Pre-ban trimester-specific log emissions reduce birthweight, shorten gestation, and increase the probability of low birthweight. A post-ban placebo yields coefficients near zero, suggesting that the estimated effects are not driven by factors correlated with race activity. To translate intermittent race-day exposures into pregnancy-relevant blood lead burdens, I develop a pregnancy-specific physiologically based pharmacokinetic (PBPK) model that simulates daily maternal and fetal blood lead trajectories using each mother's race-event history. A one-standard-deviation increase in second-trimester PBPK blood lead reduces birthweight by approximately 73 grams. A significant post-2007 birthweight decline near a former Houston racetrack, unrelated to lead exposure, suggests the limitations of cross-track comparisons and highlights the importance of exploiting within-track variation. I then examine potential mechanisms and find that lead exposure increases gestational hypertension and shortens gestation, with both effects disappearing after the transition to unleaded fuel. These findings suggest that even relatively small and intermittent sources of airborne lead can have meaningful effects on infant health.
->>>>>>> Stashed changes
     </div>
   </div>
 </div>
@@ -65,30 +82,59 @@ nav_order: 2
 <div class="research-section">
   <h2>Peer-Reviewed Articles</h2>
   <div class="paper">
-    <a href="https://www.sciencedirect.com/science/article/abs/pii/S2212828X25000209?via%3Dihub" target="_blank" rel="noopener">An, Y., Chin, S., &amp; Miller, R. (2025). Growing Old in Rural America: Measuring Late Life Health and Economic Well-being. <em>The Journal of the Economics of Ageing</em>, 31, 100565.</a>
+    <a href="https://www.sciencedirect.com/science/article/abs/pii/S2212828X25000209?via%3Dihub" target="_blank" rel="noopener"><strong>An, Y.</strong>, Chin, S., &amp; Miller, R. (2025). Growing Old in Rural America: Measuring Late Life Health and Economic Well-being. <em><strong>The Journal of the Economics of Ageing</strong></em>, 31, 100565.</a>
+    <a class="paper-pdf-link" href="https://www.sciencedirect.com/science/article/abs/pii/S2212828X25000209?via%3Dihub" target="_blank" rel="noopener">[Link]</a>
   </div>
 </div>
 
 <div class="research-section">
   <h2>Working Papers</h2>
   <div class="paper">
-    <div class="paper-title">Population Aging, Regional Integration, and Economic Growth Across U.S. Counties</div>
-    <div class="paper-meta">with Tim Komarek and Ray Miller. Draft available upon request.</div>
-  </div>
-  <div class="paper">
-    <div class="paper-title">Maternal Lead Exposure and Birth Outcomes: Evidence from Natural Experiments in the Phase-out of Leaded Gasoline</div>
-    <div class="paper-meta">with Sammy Zahran, Christopher Keyes, and Sayorn Chin. Draft available upon request.</div>
+    <div class="paper-title">Population Aging, Regional Integration, and Economic Growth Across U.S. Counties <span class="paper-status">Under Review at <a href="https://papers.ssrn.com/sol3/papers.cfm?abstract_id=6615578" target="_blank" rel="noopener"><em><strong>Regional Science and Urban Economics</strong></em></a></span> <a class="paper-pdf-link" href="https://papers.ssrn.com/sol3/papers.cfm?abstract_id=6615578" target="_blank" rel="noopener">[Link]</a></div>
+    <div class="paper-meta">with Tim Komarek and Ray Miller.</div>
+    <div class="paper-abstract">
+      <strong>Abstract.</strong> This paper examines how the economic effects of population aging vary across space. Using U.S. county data from 2000 to 2020, we estimate the impact of changes in the share of adults aged 60 and older on GDP per capita growth. We instrument for aging using lagged age structure from historic censuses to address endogeneity. We find that a 10 percent increase in the 60+ population share reduces GDP per capita by roughly 4-5 percent, but this average masks substantial spatial heterogeneity. Aging has little measurable effect in large, economically integrated labor markets, while generating sizable growth declines in smaller and more isolated regions. Sectoral analysis reveals contractions in agriculture, construction, and manufacturing alongside expansions in health care and professional services; however, only economically integrated counties appear able to offset sectoral contraction and avoid aggregate losses. These results suggest that the local consequences of demographic aging depend not only on industrial structure but also on regional integration and labor market connectivity.
+    </div>
   </div>
 </div>
 
 <div class="research-section">
   <h2>Selected Works in Progress</h2>
   <div class="paper">
+    <div class="paper-title">Maternal Lead Exposure and Birth Outcomes: Evidence from Natural Experiments in the Phase-out of Leaded Gasoline</div>
+    <div class="paper-meta">with Sammy Zahran, Christopher Keyes, Sayorn Chin, and Susan Averett.</div>
+    <div class="paper-abstract">
+      <strong>Abstract.</strong> Exploiting natural experiments in maternal exposure to tetraethyl-lead arising from the differential phase-out of leaded gasoline across the United States, and from the exogenous migration behavior of mothers during pregnancy, we find consistent evidence that fetal exposure to lead through the maternal blood lead pathway significantly affects infant health.
+Across an ensemble of tests, we find that an increase in maternal blood lead:
+1) decreases infant birthweight;
+2) increases the risk of low birthweight;
+3) shortens gestation length; and
+4) increases the risk of prematurity.
+These results are robust to various measurement operations of our treatment variable, the relaxation of case inclusion criteria, and the substitution of our blood lead treatment variable for proxy measures of lead exposure.
+Moreover, we satisfy a divergent validity test by falsifying our causal channel of maternal blood lead with analyses of the lead-independent outcome of infant sex.
+While the flow of lead into the lived environment has decreased substantially since of the phase-out of leaded gasoline, exposure to legacy lead sources remains a public health problem with measurable economic costs.
+  </div>
+  </div>
+  <div class="paper">
     <div class="paper-title">When Football Comes to Town: Provider Decision-Making and Delivery Complications</div>
     <div class="paper-meta">with Sayorn Chin and Sammy Zahran.</div>
+    <div class="paper-abstract">
+      <strong>Abstract.</strong> This paper studies whether emotionally salient events affect physician decision-making and maternal health during childbirth using evidence from NCAA and NFL football games. We document three main findings. First, the probability of a non-cesarean, non-induced birth falls on NCAA football game days and rebounds the following day, consistent with deliveries being shifted around games. Second, exposure to NCAA football game weekends increases the probability of provider-sensitive complications by 0.23 percentage points, a 19 percent increase relative to the baseline rate. Third, these effects are concentrated among mothers with fewer economic resources. Low-SES mothers, uninsured mothers, and WIC recipients experience statistically significant increases in complications after correcting for multiple testing, while we find little evidence of differences by race. Overall, the results suggest that NCAA football games, particularly those played on Saturdays when hospital staffing is typically lower, can influence physician behavior and worsen maternal outcomes.
+    </div>
   </div>
   <div class="paper">
     <div class="paper-title">Urban Heat Island and Health</div>
     <div class="paper-meta">with Tim Komarek and Sayorn Chin.</div>
+    <div class="paper-abstract">
+      <strong>Abstract.</strong> This paper asks whether in-utero exposure to extreme heat worsens birth outcomes in Texas, and whether urban heat islands (UHIs) amplify such effects. Using 2.5 million Texas birth records (2003--2010) linked to tract-level daily temperature and NLCD impervious surface coverage, the preliminary findings suggest that heat has no detectable effect on fetal growth (birth weight or low birth weight) conditional on gestational age, which may reflect selection via early fetal loss, behavioral adaptation, or other channels. The heat--imperviousness interaction is null or economically trivial across outcomes, and splits by AC proxies show no differential effects, tentatively consistent with the possibility that AC access mitigates heat exposure, though housing vintage and income are imperfect proxies. These results are provisional. 
+      </div>
+  </div>
+</div>
+
+<div class="research-section">
+  <h2>Report</h2>
+  <div class="paper">
+    <div class="paper-title">Population Aging and Economic Growth in Colorado: Why Regional Connectivity Matters for Rural Communities. <a href="https://csuredi.org/redi_reports/population-aging-and-economic-growth-in-colorado-why-regional-connectivity-matters-for-rural-communities/" target="_blank" rel="noopener"><em><strong>Regional Economic Development Institute</strong></em></a>, March 2026. <a class="paper-pdf-link" href="https://csuredi.org/redi_reports/population-aging-and-economic-growth-in-colorado-why-regional-connectivity-matters-for-rural-communities/" target="_blank" rel="noopener">[Link]</a></div>
+    <div class="paper-meta">with Ray Miller and Tim Komarek.</div>
   </div>
 </div>
