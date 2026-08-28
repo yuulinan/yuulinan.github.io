@@ -6,7 +6,7 @@ subtitle: Ph.D. Candidate in Economics, Colorado State University
 
 profile:
   align: right
-  image: yuulinan.png
+  image: yuulinan.jpg
   image_circular: false # crops the image to make it circular
   more_info: >
     <div class="home-links">
@@ -48,16 +48,16 @@ latest_posts:
   .home-heading {
     font-size: 1.3rem;
     font-weight: 700;
-    color: #800020; /* burgundy */
+    color: #1E4D2B; /* CSU green */
     margin-top: 1.5rem;
     margin-bottom: 0.4rem;
   }
   .home-heading:first-of-type {
     margin-top: 0;
   }
-  /* Bold inline labels (Research Interests, Contact Information) in burgundy */
+  /* Bold inline labels (Research Interests, Contact Information) in CSU green */
   .green-label {
-    color: #800020; /* burgundy */
+    color: #1E4D2B; /* CSU green */
   }
   /* Two true columns: photo on the right, text on the left.
      Overrides the theme's default float-based layout (.profile floats

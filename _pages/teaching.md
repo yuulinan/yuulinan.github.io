@@ -20,7 +20,7 @@ nav_order: 3
   .teaching-section h2 {
     font-size: 1.35rem;
     font-weight: 700;
-    color: #800020; /* burgundy */
+    color: #1E4D2B; /* CSU green */
     border-bottom: 1px solid var(--global-divider-color);
     padding-bottom: 0.3rem;
     margin-bottom: 0.9rem;
@@ -30,7 +30,7 @@ nav_order: 3
   }
   .course-title {
     font-weight: 600;
-    color: #800020; /* burgundy */
+    color: #1E4D2B; /* CSU green */
   }
   .course-meta {
     color: var(--global-text-color-light);
@@ -61,7 +61,7 @@ nav_order: 3
     margin: 0.2rem 0;
   }
   .te-stats strong {
-    color: #800020; /* burgundy */
+    color: #1E4D2B; /* CSU green */
   }
   .te-quotes blockquote {
     font-style: italic;
