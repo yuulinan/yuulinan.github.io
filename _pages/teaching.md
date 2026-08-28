@@ -48,15 +48,6 @@ nav_order: 3
   .course-links a {
     font-weight: 600;
   }
-  /* "On leave" status banner */
-  .teaching-note {
-    margin-bottom: 1.5rem;
-    padding: 0.65rem 0.9rem;
-    border-left: 3px solid #1E4D2B; /* CSU green */
-    background-color: color-mix(in srgb, #1E4D2B 7%, transparent);
-    border-radius: 0 4px 4px 0;
-    font-size: 0.95rem;
-  }
   /* Teaching effectiveness stats + quotes */
   .te-intro {
     font-size: 0.95rem;
@@ -77,10 +68,6 @@ nav_order: 3
     font-size: 0.95rem;
   }
 </style>
-
-<div class="teaching-note">
-  <strong>On leave &middot; Fall 2026 (not teaching).</strong> I am the recipient of the 2026 Department of Economics Dissertation Fellowship at Colorado State University, which provides full-time support for dissertation research during the semester.
-</div>
 
 <div class="teaching-section">
   <h2>Sole Instructor</h2>
