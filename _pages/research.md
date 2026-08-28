@@ -103,10 +103,7 @@ nav_order: 2
     </div>
   </div>
 </div>
-
-<div class="research-section">
-  <h2>Selected Works in Progress</h2>
-  <div class="paper">
+<div class="paper">
     <div class="paper-title">Maternal Lead Exposure and Birth Outcomes: Evidence from Natural Experiments in the Phase-out of Leaded Gasoline</div>
     <div class="paper-meta">with Sammy Zahran, Christopher Keyes, Sayorn Chin, and Susan Averett.</div>
     <div class="paper-abstract">
@@ -121,6 +118,9 @@ Moreover, we satisfy a divergent validity test by falsifying our causal channel 
 While the flow of lead into the lived environment has decreased substantially since of the phase-out of leaded gasoline, exposure to legacy lead sources remains a public health problem with measurable economic costs.
   </div>
   </div>
+
+<div class="research-section">
+  <h2>Selected Works in Progress</h2>
   <div class="paper">
     <div class="paper-title">When Football Comes to Town: Provider Decision-Making and Delivery Complications</div>
     <div class="paper-meta">with Sayorn Chin and Sammy Zahran.</div>
