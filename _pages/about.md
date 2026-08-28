@@ -76,6 +76,8 @@ I'm a PhD candidate in the <a href="https://economics.colostate.edu/" target="_b
 
 My job market paper studies the effects of airborne lead exposure on infant health outcomes using evidence from NASCAR's and ARCA's transition from leaded to unleaded gasoline in Texas in 2007. Other projects examine the effect of urban heat island on maternal and infant health, football games and provider decision-making, as well as aging and economic growth. 
 
+**I am on the 2026-27 job market.**
+
 <p><strong class="green-label">Research Interests:</strong> Applied Microeconomics, Health Economics, Environmental Economics, Demographic Economics</p>
 
 <p><strong class="green-label">Contact Information:</strong></p>
