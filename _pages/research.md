@@ -42,6 +42,9 @@ nav_order: 2
   .research-section .paper a strong {
     color: #1E4D2B; /* CSU green */
   }
+  .research-section .paper a strong {
+    font-weight: 700;
+  }
   .paper .paper-meta {
     color: var(--global-text-color-light);
     font-size: 0.95rem;
