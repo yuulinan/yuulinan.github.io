@@ -59,6 +59,38 @@ latest_posts:
   .green-label {
     color: #800020; /* burgundy */
   }
+  /* Two true columns: photo on the right, text on the left.
+     Overrides the theme's default float-based layout (.profile floats
+     right at 30% width, text wraps around it), which was squeezing
+     short lines like "Research Interests" into an oddly narrow column. */
+  article {
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: row-reverse;
+    align-items: flex-start;
+    gap: 2rem;
+  }
+  article > .profile {
+    float: none !important;
+    width: 260px !important;
+    max-width: 260px;
+    margin: 0 !important;
+    flex: 0 0 260px;
+  }
+  article > .clearfix {
+    flex: 1 1 300px;
+    min-width: 0;
+  }
+  @media (max-width: 575.98px) {
+    article {
+      flex-direction: column;
+    }
+    article > .profile {
+      width: 100% !important;
+      max-width: 100%;
+      flex-basis: auto;
+    }
+  }
 </style>
 <h3 class="home-heading">Welcome!</h3>
 I'm a PhD candidate in the <a href="https://economics.colostate.edu/" target="_blank" rel="noopener"> Department of Economics </a> at Colorado State University. As an applied microeconomist, I am interested in understanding how environmental conditions and institutional contexts shape health and well-being of vulnerable populations such as pregnant mothers, infants, and older adults, and how public policies can mitigate these adverse outcomes.
