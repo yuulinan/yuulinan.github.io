@@ -9,7 +9,6 @@ profile:
   image: yuulinan.png
   image_circular: false # crops the image to make it circular
   more_info: >
-    <div class="home-location"><i class="fa-solid fa-location-dot"></i> Fort Collins, CO</div>
     <div class="home-links">
       <a href="https://scholar.google.com/citations?user=qV0QdlEAAAAJ&hl=en" target="_blank" rel="noopener"><i class="ai ai-google-scholar"></i> Google Scholar</a>
       <a href="https://www.linkedin.com/in/yuulinan/" target="_blank" rel="noopener"><i class="fa-brands fa-linkedin"></i> LinkedIn</a>
@@ -32,16 +31,7 @@ latest_posts:
   .post-header {
     display: none;
   }
-  /* Home-page location + sidebar links under the photo */
-  .home-location {
-    margin-top: 0.75rem;
-    color: #1E4D2B; /* CSU green */
-  }
-  .home-location i {
-    width: 1.3rem;
-    text-align: center;
-    margin-right: 0.3rem;
-  }
+  /* Home-page sidebar links under the photo */
   .home-links {
     margin-top: 0.35rem;
   }
@@ -58,16 +48,16 @@ latest_posts:
   .home-heading {
     font-size: 1.3rem;
     font-weight: 700;
-    color: #1E4D2B; /* CSU green */
+    color: #800020; /* burgundy */
     margin-top: 1.5rem;
     margin-bottom: 0.4rem;
   }
   .home-heading:first-of-type {
     margin-top: 0;
   }
-  /* Bold inline labels (Research Interests, Contact Information) in CSU green */
+  /* Bold inline labels (Research Interests, Contact Information) in burgundy */
   .green-label {
-    color: #1E4D2B; /* CSU green */
+    color: #800020; /* burgundy */
   }
 </style>
 <h3 class="home-heading">Welcome!</h3>
