@@ -22,7 +22,7 @@ nav_order: 2
   .research-section h2 {
     font-size: 1.35rem;
     font-weight: 700;
-    color: #1E4D2B; /* CSU green */
+    color: #800020; /* burgundy */
     border-bottom: 1px solid var(--global-divider-color);
     padding-bottom: 0.3rem;
     margin-bottom: 0.9rem;
@@ -32,15 +32,15 @@ nav_order: 2
   }
   .paper .paper-title {
     font-weight: normal;
-    color: #1E4D2B; /* CSU green */
+    color: #800020; /* burgundy */
   }
-  /* Peer-reviewed citation: color the linked title CSU green too */
-  /* Keep the whole citation link CSU green, including <em> and <strong>,
+  /* Peer-reviewed citation: color the linked title burgundy too */
+  /* Keep the whole citation link burgundy, including <em> and <strong>,
      which the theme otherwise forces to the default text color. */
   .research-section .paper a,
   .research-section .paper a em,
   .research-section .paper a strong {
-    color: #1E4D2B; /* CSU green */
+    color: #800020; /* burgundy */
   }
   .research-section .paper a strong {
     font-weight: 700;
@@ -57,7 +57,7 @@ nav_order: 2
   .paper-pdf-link {
     font-size: 0.9rem;
     font-weight: 600;
-    color: #1E4D2B; /* CSU green */
+    color: #800020; /* burgundy */
     margin-left: 0.4rem;
     white-space: nowrap;
   }
@@ -102,8 +102,7 @@ nav_order: 2
       <strong>Abstract.</strong> This paper examines how the economic effects of population aging vary across space. Using U.S. county data from 2000 to 2020, we estimate the impact of changes in the share of adults aged 60 and older on GDP per capita growth. We instrument for aging using lagged age structure from historic censuses to address endogeneity. We find that a 10 percent increase in the 60+ population share reduces GDP per capita by roughly 4-5 percent, but this average masks substantial spatial heterogeneity. Aging has little measurable effect in large, economically integrated labor markets, while generating sizable growth declines in smaller and more isolated regions. Sectoral analysis reveals contractions in agriculture, construction, and manufacturing alongside expansions in health care and professional services; however, only economically integrated counties appear able to offset sectoral contraction and avoid aggregate losses. These results suggest that the local consequences of demographic aging depend not only on industrial structure but also on regional integration and labor market connectivity.
     </div>
   </div>
-</div>
-<div class="paper">
+  <div class="paper">
     <div class="paper-title">Maternal Lead Exposure and Birth Outcomes: Evidence from Natural Experiments in the Phase-out of Leaded Gasoline</div>
     <div class="paper-meta">with Sammy Zahran, Christopher Keyes, Sayorn Chin, and Susan Averett.</div>
     <div class="paper-abstract">
@@ -116,8 +115,9 @@ Across an ensemble of tests, we find that an increase in maternal blood lead:
 These results are robust to various measurement operations of our treatment variable, the relaxation of case inclusion criteria, and the substitution of our blood lead treatment variable for proxy measures of lead exposure.
 Moreover, we satisfy a divergent validity test by falsifying our causal channel of maternal blood lead with analyses of the lead-independent outcome of infant sex.
 While the flow of lead into the lived environment has decreased substantially since of the phase-out of leaded gasoline, exposure to legacy lead sources remains a public health problem with measurable economic costs.
+    </div>
   </div>
-  </div>
+</div>
 
 <div class="research-section">
   <h2>Selected Works in Progress</h2>
