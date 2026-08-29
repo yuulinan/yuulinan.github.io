@@ -93,10 +93,9 @@ latest_posts:
   }
 </style>
 <h3 class="home-heading">Welcome!</h3>
-I'm a PhD candidate in the <a href="https://economics.colostate.edu/" target="_blank" rel="noopener"> Department of Economics </a> at Colorado State University. As an applied microeconomist, I am interested in understanding how environmental conditions and institutional contexts shape health and well-being of vulnerable populations such as pregnant mothers, infants, and older adults, and how public policies can mitigate these adverse outcomes.
+I'm a PhD candidate in the <a href="https://economics.colostate.edu/" target="_blank" rel="noopener"> Department of Economics </a> at Colorado State University. AMy research focuses on applied microeconomics, with an emphasis on health, the environment, and population aging. Specifically, I study how environmental conditions, health-care systems, and public policies influence the health and well-being of vulnerable populations, including pregnant women, infants, and older adults. My work aims to provide evidence that can inform policies to improve health outcomes and reduce disparities across these populations.
 
-
-My job market paper studies the effects of airborne lead exposure on infant health outcomes using evidence from NASCAR's and ARCA's transition from leaded to unleaded gasoline in Texas in 2007. Other projects examine the effect of urban heat island on maternal and infant health, football games and provider decision-making, as well as aging and economic growth. 
+My job market paper studies the effects of airborne lead exposure on birth outcomes using evidence from NASCAR's and ARCA's transition from leaded to unleaded gasoline in Texas in 2007. Other projects examine the effect of urban heat island on maternal and infant health, football games and provider decision-making, as well as aging and economic growth. 
 
 **I am on the 2026-27 job market.**
 
