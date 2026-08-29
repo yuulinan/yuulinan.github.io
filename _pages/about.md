@@ -102,8 +102,8 @@ My job market paper studies the effects of airborne lead exposure on infant heal
 
 <p><strong class="green-label">Research Interests:</strong> Applied Microeconomics, Health Economics, Environmental Economics, Demographic Economics</p>
 
-<p><strong class="green-label">Contact Information:</strong></p>
 <p>
+  <strong class="green-label">Contact Information:</strong><br>
   Email: <a href="mailto:Yuulin.An@colostate.edu">Yuulin.An@colostate.edu</a><br>
   Office: Social Sciences Hall 3916A<br>
   
