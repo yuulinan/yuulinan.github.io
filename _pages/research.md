@@ -75,7 +75,7 @@ nav_order: 2
 <div class="research-section">
   <h2>Job Market Paper</h2>
   <div class="paper">
-    <div class="paper-title" style="font-weight: 700;">The Effect of Leaded Gasoline on Infant Health: Evidence from NASCAR Fuel Transition</div>
+    <div class="paper-title" style="font-weight: 700;">Airborne Lead and Birth Outcomes: Evidence from Leaded Fuel in Auto Racing</div>
     <div class="paper-abstract">
       <strong>Abstract.</strong> The National Association for Stock Car Auto Racing (NASCAR) and Automobile Racing Club of America (ARCA) races continued to use leaded gasoline until 2007, despite the removal of leaded gasoline from on-road vehicles long ago. Exploiting this novel quasi experiment, I study how airborne lead exposure affected birth outcomes using administrative birth records linked to race events at Texas Motor Speedway (TMS) in Fort Worth, Texas. Mothers living within 25 km of TMS see a reduction in infant birthweight, shortened gestation length, and an increased probability of low birthweight before the ban of lead from NASCAR and ARCA races, while a post-ban placebo yields coefficients near zero. To translate race-day exposures into blood lead burdens, I developed a pregnancy-specific physiologically based pharmacokinetic (PBPK) model that simulates maternal and fetal daily blood lead trajectories. I find that a one-standard-deviation increase in second-trimester PBPK blood lead reduces birthweight by approximately 73 grams. A potential mechanism suggests that lead increases gestational hypertension and shortens gestation, and these effects disappear after the transition to unleaded fuel. These findings suggest that even a relatively low level of lead can have a meaningful effect on maternal and infant health.
     </div>
