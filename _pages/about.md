@@ -99,7 +99,7 @@ My job market paper studies the effects of airborne lead exposure on birth outco
 
 **I am on the 2026-27 job market.**
 
-<p><strong class="green-label">Research Interests:</strong> Applied Microeconomics, Health Economics, Environmental Economics, Demographic Economics</p>
+<p><strong class="green-label">Research Interests:</strong> Health Economics, Environmental Economics, Demographic Economics</p>
 
 <p>
   <strong class="green-label">Contact Information:</strong><br>
