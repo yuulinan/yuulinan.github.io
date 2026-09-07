@@ -130,7 +130,7 @@ While the flow of lead into the lived environment has decreased substantially si
   </div>
   <div class="paper">
     <div class="paper-title">Urban Heat Island and Health</div>
-    <div class="paper-meta">with Tim Komarek and Sayorn Chin.</div>
+    <div class="paper-meta">with Tim Komarek, Sammy Zahran, and Sayorn Chin.</div>
     <div class="paper-abstract">
       <strong>Abstract.</strong> This paper examines whether in-utero exposure to extreme heat worsens birth outcomes in Texas, and whether urban heat islands (UHIs) amplify such effects. Using 2.5 million Texas birth records (2003--2010) linked to tract-level daily temperature and NLCD impervious surface coverage, the preliminary findings suggest that heat has no significant effect on fetal growth (birth weight or low birth weight) conditional on gestational age, which may reflect selection via early fetal loss, behavioral adaptation, or other channels. Results are provisional. 
       </div>
