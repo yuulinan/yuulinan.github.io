@@ -72,6 +72,10 @@ nav_order: 3
 <div class="teaching-section">
   <h2>Sole Instructor</h2>
   <div class="course">
+    <div class="course-title">ECON 335 &mdash; Introduction to Econometrics</div>
+    <div class="course-meta">Graduate Teaching Instructor &middot; Colorado State University &middot; Spring 2027</div>
+  </div>
+  <div class="course">
     <div class="course-title">ECON 235 &mdash; Working with Data</div>
     <div class="course-meta">Graduate Teaching Instructor &middot; Colorado State University &middot; Summer 2025 &ndash; present</div>
     <div class="course-desc">
