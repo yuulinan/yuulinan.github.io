@@ -75,7 +75,7 @@ nav_order: 2
 <div class="research-section">
   <h2>Job Market Paper</h2>
   <div class="paper">
-    <div class="paper-title" style="font-weight: 700;">Airborne Lead and Birth Outcomes: Evidence from Leaded Fuel in Auto Racing. <a class="paper-pdf-link" href="{{ '/assets/pdf/YuulinAn_JMP.pdf' | relative_url }}" target="_blank" rel="noopener">[PDF].</a></div>
+    <div class="paper-title" style="font-weight: 700;">Airborne Lead and Birth Outcomes: Evidence from Leaded Fuel in Auto Racing<a class="paper-pdf-link" href="{{ '/assets/pdf/YuulinAn_JMP.pdf' | relative_url }}" target="_blank" rel="noopener">[PDF]</a></div>
     <div class="paper-abstract">
       <strong>Abstract.</strong> The National Association for Stock Car Auto Racing (NASCAR) continued to use leaded gasoline until 2007, despite the removal of leaded gasoline from on-road vehicles long ago. Exploiting this natural experiment, I study how airborne lead exposure affected birth outcomes using administrative birth records linked to race events at Texas Motor Speedway (TMS) in Fort Worth, Texas. Before the transition to unleaded fuel, race exposure among mothers living within 25 km of TMS is associated with lower infant birthweight, shorter gestation, and a higher probability of low birthweight while the corresponding birthweight and gestational-age estimates are near zero after the transition. To account for how lead accumulates in the body, I develop a pregnancy-specific physiologically based pharmacokinetic (PBPK) model that simulates maternal daily blood lead trajectories. I find that each additional race during pregnancy lowers birthweight by about 14 grams, and infants of mothers at the 75th percentile of simulated cumulative blood lead weigh about 38 grams less than those of mothers at the 25th percentile. Suggestive evidence points to gestational hypertension as a mechanism through which lead shortens gestation. These findings suggest that prenatal exposure to airborne lead can affect maternal and infant health.
     </div>
@@ -96,14 +96,14 @@ nav_order: 2
 <div class="research-section">
   <h2>Working Papers</h2>
   <div class="paper">
-    <div class="paper-title">Population Aging, Local Economic Growth, and the Urban-Rural Divide. <span class="paper-status">Submitted to <a href="https://papers.ssrn.com/sol3/papers.cfm?abstract_id=6615578" target="_blank" rel="noopener"><em><strong>American Journal of Agricultural Economics</strong></em></a></span> <a class="paper-pdf-link" href="{{ '/assets/pdf/Aging_and_Growth.pdf' | relative_url }}" target="_blank" rel="noopener">[PDF]</a></div>
+    <div class="paper-title">Population Aging, Local Economic Growth, and the Urban-Rural Divide <span class="paper-status">Submitted to <a href="https://papers.ssrn.com/sol3/papers.cfm?abstract_id=6615578" target="_blank" rel="noopener"><em><strong>American Journal of Agricultural Economics</strong></em></a></span> <a class="paper-pdf-link" href="{{ '/assets/pdf/Aging_and_Growth.pdf' | relative_url }}" target="_blank" rel="noopener">[PDF]</a></div>
     <div class="paper-meta">with Tim Komarek and Ray Miller.</div>
     <div class="paper-abstract">
       <strong>Abstract.</strong> This paper examines how population aging affects local economic growth across the urban-rural divide. Using U.S. county data spanning 2000–2020, we instrument changes in the share of adults aged 60 and older using historical age distributions and national cohort population changes. We find that a 10 percent increase in the older-adult share reduces real GDP per capita by approximately 2.7 percent in non-metro counties, while effects in metro counties are statistically insignificant. Population-weighted estimates reveal particularly large negative effects in non-metro counties that are not adjacent to metro areas. Among these counties, negative effects are concentrated in those with low or moderate commuting openness, while estimates for the most open counties are smaller and insignificant. Industry-specific estimates are positive in metro counties but negative in non-adjacent counties for finance and real estate, retail trade, and manufacturing, even as education and health services exhibit positive growth responses to aging. These findings suggest that regional economic integration may shape how local economies adjust to population aging.
     </div>
   </div>
   <div class="paper">
-    <div class="paper-title">Maternal Lead Exposure and Birth Outcomes: Evidence from Natural Experiments in the Phase-out of Leaded Gasoline.</div>
+    <div class="paper-title">Maternal Lead Exposure and Birth Outcomes: Evidence from Natural Experiments in the Phase-out of Leaded Gasoline</div>
     <div class="paper-meta">with Sammy Zahran, Christopher Keyes, Sayorn Chin, and Susan Averett.</div>
     <div class="paper-abstract">
       <strong>Abstract.</strong> Exploiting natural experiments in maternal exposure to tetraethyl-lead arising from the differential phase-out of leaded gasoline across the United States, and from the exogenous migration behavior of mothers during pregnancy, we find consistent evidence that fetal exposure to lead through the maternal blood lead pathway significantly affects infant health.
@@ -140,7 +140,7 @@ While the flow of lead into the lived environment has decreased substantially si
 <div class="research-section">
   <h2>Other Publications</h2>
   <div class="paper">
-    <div class="paper-title">Population Aging and Economic Growth in Colorado: Why Regional Connectivity Matters for Rural Communities. <a href="https://csuredi.org/redi_reports/population-aging-and-economic-growth-in-colorado-why-regional-connectivity-matters-for-rural-communities/" target="_blank" rel="noopener"><em><strong>Regional Economic Development Institute</strong></em></a>, March 2026. <a class="paper-pdf-link" href="https://csuredi.org/redi_reports/population-aging-and-economic-growth-in-colorado-why-regional-connectivity-matters-for-rural-communities/" target="_blank" rel="noopener">[Link].</a></div>
+    <div class="paper-title">Population Aging and Economic Growth in Colorado: Why Regional Connectivity Matters for Rural Communities. <a href="https://csuredi.org/redi_reports/population-aging-and-economic-growth-in-colorado-why-regional-connectivity-matters-for-rural-communities/" target="_blank" rel="noopener"><em><strong>Regional Economic Development Institute</strong></em></a>, March 2026. <a class="paper-pdf-link" href="https://csuredi.org/redi_reports/population-aging-and-economic-growth-in-colorado-why-regional-connectivity-matters-for-rural-communities/" target="_blank" rel="noopener">[Link]</a></div>
     <div class="paper-meta">with Ray Miller and Tim Komarek.</div>
   </div>
 </div>
