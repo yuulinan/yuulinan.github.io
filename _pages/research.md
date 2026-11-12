@@ -45,6 +45,12 @@ nav_order: 2
   .research-section .paper a strong {
     font-weight: 700;
   }
+  /* Unlinked citation text: same CSU green as the linked titles */
+  .research-section .paper .paper-citation,
+  .research-section .paper .paper-citation em,
+  .research-section .paper .paper-citation strong {
+    color: #1E4D2B; /* CSU green */
+  }
   .paper .paper-meta {
     color: var(--global-text-color-light);
     font-size: 0.95rem;
@@ -85,7 +91,7 @@ nav_order: 2
 <div class="research-section">
   <h2>Peer-Reviewed Articles</h2>
   <div class="paper">
-    <strong>An, Y.</strong>, Chin, S., &amp; Miller, R. (2025). Growing Old in Rural America: Measuring Late Life Health and Economic Well-being. <em><strong>The Journal of the Economics of Ageing</strong></em>, 31, 100565.
+    <span class="paper-citation"><strong>An, Y.</strong>, Chin, S., &amp; Miller, R. (2025). Growing Old in Rural America: Measuring Late Life Health and Economic Well-being. <em><strong>The Journal of the Economics of Ageing</strong></em>, 31, 100565.</span>
     <a class="paper-pdf-link" href="https://www.sciencedirect.com/science/article/abs/pii/S2212828X25000209?via%3Dihub" target="_blank" rel="noopener">[Link]</a>
     <div class="paper-abstract">
       <strong>Abstract.</strong> We estimate well-being among older rural Americans with an expected utility framework and simulations using longitudinal data spanning nearly 30 years from the Health and Retirement Study. At age sixty, we find mean rural consumption expenditures of $24,105, a retirement probability of 53%, and a remaining life expectancy of 20.3 years for the cohort born 1931&ndash;36. When adjusting life expectancy for living in poor health, we obtain an age sixty quality adjusted life expectancy (QALE) of only 15.4 years. Our welfare metric suggests well-being among rural residents who report loneliness is only about half that of the non-lonely rural residents&mdash;largely driven by substantial consumption and QALE gaps. We also document substantial regional variation in rural well-being. Moreover, we find that older rural Americans are generally falling further behind older urban Americans across birth cohorts. Most of this widening gap is driven by declining relative consumption and wealth as opposed to health.
